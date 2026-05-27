@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "word": "代わる",
+    "reading": "かわる",
+    "meaning": "代替、代理、代表、交代",
+    "partOfSpeech": "自動詞",
+    "example": "急病の部長に代わって、私が会議に出席した。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "訴える",
+    "reading": "うったえる",
+    "meaning": "訴訟、控告、訴說、打動",
+    "partOfSpeech": "他動詞",
+    "example": "彼は不当な解雇を裁判所に訴えた。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "争う",
+    "reading": "あらそう",
+    "meaning": "競爭、對抗、爭奪、爭論",
+    "partOfSpeech": "他動詞",
+    "example": "二人の候補者が一議席を争っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "測る",
+    "reading": "はかる",
+    "meaning": "測量、測定、推測、估計",
+    "partOfSpeech": "他動詞",
+    "example": "土地の面積を正確に測る。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "担う",
+    "reading": "になう",
+    "meaning": "擔、挑、肩負、承擔",
+    "partOfSpeech": "他動詞",
+    "example": "次世代の日本を担う若者を育成する。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "探る",
+    "reading": "さぐる",
+    "meaning": "探查、調查、摸索、試探",
+    "partOfSpeech": "他動詞",
+    "example": "ポケットの中を探って鍵を取り出した。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "断つ",
+    "reading": "たつ",
+    "meaning": "切斷、斷絕、戒掉、消滅",
+    "partOfSpeech": "他動詞",
+    "example": "健康のために酒を断つことにした。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "断る",
+    "reading": "ことわる",
+    "meaning": "謝絕、拒絕、事先通知、請示",
+    "partOfSpeech": "他動詞",
+    "example": "無理な依頼をきっぱりと断る。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "奪う",
+    "reading": "うばう",
+    "meaning": "奪取、掠奪、剝奪、吸引（目光）",
+    "partOfSpeech": "他動詞",
+    "example": "その美しい景色に心を奪われた。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "築く",
+    "reading": "きずく",
+    "meaning": "構築、修建、建立、累積",
+    "partOfSpeech": "他動詞",
+    "example": "二人は信頼関係を築いている。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "組む",
+    "reading": "くむ",
+    "meaning": "組合、編組、搭配、交叉（手腳）",
+    "partOfSpeech": "他動詞",
+    "example": "二人は協力して新しいプロジェクトを組む。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "染める",
+    "reading": "そめる",
+    "meaning": "染色、塗上顏色、著手",
+    "partOfSpeech": "他動詞",
+    "example": "夕焼けが空を真っ赤に染めている。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "狙う",
+    "reading": "ねらう",
+    "meaning": "瞄準、尋找機會",
+    "partOfSpeech": "他動詞",
+    "example": "優勝を狙って日々厳しい練習に励む。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "染まる",
+    "reading": "そまる",
+    "meaning": "染上顏色、受影響、沾染",
+    "partOfSpeech": "自動詞",
+    "example": "都会の生活に染まってしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "占める",
+    "reading": "しめる",
+    "meaning": "佔、佔有、佔據（比例）",
+    "partOfSpeech": "他動詞",
+    "example": "支出の中で食費が大きな割合を占めている。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "設ける",
+    "reading": "もうける",
+    "meaning": "設置、設立、預備、制定",
+    "partOfSpeech": "他動詞",
+    "example": "新しい相談窓口を設けることになった。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "責める",
+    "reading": "せめる",
+    "meaning": "責備、責難、苛責、嚴加催促",
+    "partOfSpeech": "他動詞",
+    "example": "他人のミスを厳しく責めるのはよくない。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "生じる",
+    "reading": "しょうじる",
+    "meaning": "產生、發出、出現、生長",
+    "partOfSpeech": "自動詞",
+    "example": "計画を進める中でいくつかの問題が生じた。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "生かす",
+    "reading": "いかす",
+    "meaning": "發揮作用、利用、活用、使其繼續生存",
+    "partOfSpeech": "他動詞",
+    "example": "留学経験をこれからの仕事に生かしたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "整える",
+    "reading": "ととのえる",
+    "meaning": "整理、整頓、備齊、談妥",
+    "partOfSpeech": "他動詞",
+    "example": "準備を整えてから旅行に出発する。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "震える",
+    "reading": "ふるえる",
+    "meaning": "震動、發抖",
+    "partOfSpeech": "自動詞",
+    "example": "寒さで手足がガタガタ震える。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "触れる",
+    "reading": "ふれる",
+    "meaning": "觸、碰、涉及、提及",
+    "partOfSpeech": "自動詞、他動詞",
+    "example": "展示品には手を触れないでください。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "焼ける",
+    "reading": "やける",
+    "meaning": "燒掉、曬黑、發紅、操心",
+    "partOfSpeech": "自動詞",
+    "example": "夏休みに海へ行って肌が真っ黒に焼けた。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "伸ばす",
+    "reading": "のばす",
+    "meaning": "延長、拉長、伸展、發揮",
+    "partOfSpeech": "他動詞",
+    "example": "個性を伸ばす教育が求められている。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "深まる",
+    "reading": "ふかまる",
+    "meaning": "加深、變深",
+    "partOfSpeech": "自動詞",
+    "example": "秋が深まり、紅葉が綺麗になった。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "深める",
+    "reading": "ふかめる",
+    "meaning": "加深、加強（程度）",
+    "partOfSpeech": "他動詞",
+    "example": "交流会を通じて、お互いの理解を深める。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "心掛ける",
+    "reading": "こころがける",
+    "meaning": "留心、注意、記在心裡",
+    "partOfSpeech": "他動詞",
+    "example": "早寝早起きを心掛けるようにしている。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "親しむ",
+    "reading": "したしむ",
+    "meaning": "親近、愛好、接近",
+    "partOfSpeech": "自動詞",
+    "example": "子供の頃から自然に親しんで育った。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "震わせる",
+    "reading": "ふるわせる",
+    "meaning": "震動、震撼、使發抖",
+    "partOfSpeech": "他動詞",
+    "example": "彼女は怒りで声を震わせて抗議した。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "図る",
+    "reading": "はかる",
+    "meaning": "圖謀、策劃、謀求",
+    "partOfSpeech": "他動詞",
+    "example": "企業の合理化を図るために組織を改編する。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "仕上げる",
+    "reading": "しあげる",
+    "meaning": "完成、做完",
+    "partOfSpeech": "他動詞",
+    "example": "今週末までにこのレポートを仕上げる。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "支える",
+    "reading": "ささえる",
+    "meaning": "支撐、支持、維持、阻止",
+    "partOfSpeech": "他動詞",
+    "example": "苦しい時、家族が私を支えてくれた。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "試みる",
+    "reading": "こころみる",
+    "meaning": "嘗試、試一試",
+    "partOfSpeech": "他動詞",
+    "example": "新しい治療法を試みる価値はある。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "謝る",
+    "reading": "あやまる",
+    "meaning": "道歉、賠禮、認輸、謝絕",
+    "partOfSpeech": "自動詞",
+    "example": "自分の過ちを認めて、素直に謝る。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "収まる",
+    "reading": "おさまる",
+    "meaning": "容納、平息、解決、心滿意足",
+    "partOfSpeech": "自動詞",
+    "example": "嵐が収まるまで、建物の中で待機する。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "従う",
+    "reading": "したがう",
+    "meaning": "跟隨、按照、適應、服從",
+    "partOfSpeech": "自動詞",
+    "example": "ガイドの指示に従って行動してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "巡る",
+    "reading": "めぐる",
+    "meaning": "圍繞、環繞、巡遊、循環",
+    "partOfSpeech": "自動詞",
+    "example": "一つの案を巡って、激しい議論が続いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "除く",
+    "reading": "のぞく",
+    "meaning": "消除、去掉、排除、除了",
+    "partOfSpeech": "他動詞",
+    "example": "土日を除いて、毎日営業しています。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "傷つく",
+    "reading": "きずつく",
+    "meaning": "受傷、損壞、心靈受創",
+    "partOfSpeech": "自動詞",
+    "example": "彼のひどい言葉に深く傷ついた。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "招く",
+    "reading": "まねく",
+    "meaning": "招待、邀請、聘請、導致（壞結果）",
+    "partOfSpeech": "他動詞",
+    "example": "不注意が思わぬ事故を招くことがある。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "限る",
+    "reading": "かぎる",
+    "meaning": "限、限定、只限、最好",
+    "partOfSpeech": "他動詞",
+    "example": "夏はやっぱり冷たいビールに限る。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "固める",
+    "reading": "かためる",
+    "meaning": "使凝固、集中、堅定、加強防守",
+    "partOfSpeech": "他動詞",
+    "example": "意志を固めて、資格試験に挑戦する。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "戸惑う",
+    "reading": "とまどう",
+    "meaning": "不知所措、困惑",
+    "partOfSpeech": "自動詞",
+    "example": "新しいシステムの使い方に戸惑っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "向く",
+    "reading": "むく",
+    "meaning": "朝向、對著、適合",
+    "partOfSpeech": "自他動詞",
+    "example": "彼は接客業に向いている性格だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "広まる",
+    "reading": "ひろまる",
+    "meaning": "擴大、傳播、蔓延",
+    "partOfSpeech": "自動詞",
+    "example": "その噂はあっという間に街中に広まった。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "構える",
+    "reading": "かまえる",
+    "meaning": "擺出姿勢、設置、開設、準備",
+    "partOfSpeech": "他動詞",
+    "example": "彼は郊外に大きな店を構えている。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "行う",
+    "reading": "おこなう",
+    "meaning": "行、做、進行、舉行",
+    "partOfSpeech": "他動詞",
+    "example": "来週、卒業式が行われる予定だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "合わす",
+    "reading": "あわす",
+    "meaning": "合、合併、配合、核對",
+    "partOfSpeech": "他動詞",
+    "example": "心を一つに合わせて作業に取り組む。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "込める",
+    "reading": "こめる",
+    "meaning": "裝填、包括、集中（精力、心意）",
+    "partOfSpeech": "他動詞",
+    "example": "感謝の気持ちを込めて手紙を書く。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "削る",
+    "reading": "けずる",
+    "meaning": "削減、刪減、刨、鏟",
+    "partOfSpeech": "他動詞",
+    "example": "予算を削って赤字を解消する。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "勤める",
+    "reading": "つとめる",
+    "meaning": "工作、做事、任職、修行",
+    "partOfSpeech": "自動詞",
+    "example": "兄はIT企業に勤めています。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "禁じる",
+    "reading": "きんじる",
+    "meaning": "禁止、控制",
+    "partOfSpeech": "他動詞",
+    "example": "芝生の中に入ることを禁じている。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "駆ける",
+    "reading": "かける",
+    "meaning": "跑、快跑、策馬疾馳",
+    "partOfSpeech": "自動詞",
+    "example": "遅刻しそうだったので、駅まで駆けた。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "傾ける",
+    "reading": "かたむける",
+    "meaning": "使傾斜、傾注、熱衷於",
+    "partOfSpeech": "他動詞",
+    "example": "先生の話に熱心に耳を傾ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "敬う",
+    "reading": "うやまう",
+    "meaning": "尊敬",
+    "partOfSpeech": "他動詞",
+    "example": "お年寄りを敬う気持ちを大切にする。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "経る",
+    "reading": "へる",
+    "meaning": "經過（時間・過程）、通過",
+    "partOfSpeech": "自動詞",
+    "example": "長い年月を経て、ようやく完成した。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "繋がる",
+    "reading": "つながる",
+    "meaning": "連接、關聯、牽連、排列",
+    "partOfSpeech": "自動詞",
+    "example": "努力が最高の結果に繋がった。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "結ぶ",
+    "reading": "むすぶ",
+    "meaning": "連接、結合、結成、締結",
+    "partOfSpeech": "他動詞",
+    "example": "靴の紐をしっかりと結ぶ。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "現れる",
+    "reading": "あらわれる",
+    "meaning": "出現、顯露、露出",
+    "partOfSpeech": "自動詞",
+    "example": "雲の間から太陽が現れた。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "嫌がる",
+    "reading": "いやがる",
+    "meaning": "嫌、討厭、不願意",
+    "partOfSpeech": "他動詞",
+    "example": "彼は人前に出るのを嫌がっている。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "勤まる",
+    "reading": "つとまる",
+    "meaning": "能擔任、勝任",
+    "partOfSpeech": "自動詞",
+    "example": "私のような者に大役が勤まるだろうか。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "驚く",
+    "reading": "おどろく",
+    "meaning": "吃驚、驚訝、意外",
+    "partOfSpeech": "自動詞",
+    "example": "そのニュースを聞いて大変驚いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "狂う",
+    "reading": "くるう",
+    "meaning": "發狂、失常、不準確、打亂",
+    "partOfSpeech": "自動詞",
+    "example": "急な用事で予定が狂ってしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "求める",
+    "reading": "もとめる",
+    "meaning": "要求、尋找、想要、購買",
+    "partOfSpeech": "他動詞",
+    "example": "平和な社会を求める声が高まっている。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "救う",
+    "reading": "すくう",
+    "meaning": "救、拯救、救濟、挽救",
+    "partOfSpeech": "他動詞",
+    "example": "医師は多くの患者の命を救った。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "詰める",
+    "reading": "つめる",
+    "meaning": "塞滿、填滿、縮短、深究",
+    "partOfSpeech": "他動詞",
+    "example": "お弁当箱におかずをきれいに詰める。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "疑う",
+    "reading": "うたがう",
+    "meaning": "懷疑、疑惑、猜測",
+    "partOfSpeech": "他動詞",
+    "example": "彼の言動を疑う余地はない。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "輝く",
+    "reading": "かがやく",
+    "meaning": "閃耀、輝煌、光輝、引人注目",
+    "partOfSpeech": "自動詞",
+    "example": "彼女の瞳は喜びで輝いていた。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "響く",
+    "reading": "ひびく",
+    "meaning": "響、傳播震動、影響、揚名",
+    "partOfSpeech": "自動詞",
+    "example": "彼の歌声は会場全体に響き渡った。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "許す",
+    "reading": "ゆるす",
+    "meaning": "允許、原諒、寬恕、承認",
+    "partOfSpeech": "他動詞",
+    "example": "一度だけ彼女の過ちを許すことにした。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "寄せる",
+    "reading": "よせる",
+    "meaning": "靠近、招集、寄託（感情）",
+    "partOfSpeech": "他動詞",
+    "example": "車を路肩に寄せて停めた。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "含める",
+    "reading": "ふくめる",
+    "meaning": "包含、包括、囑咐",
+    "partOfSpeech": "他動詞",
+    "example": "自分を含めて、全部で五人が参加した。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "勧める",
+    "reading": "すすめる",
+    "meaning": "勸告、推薦、勸誘",
+    "partOfSpeech": "他動詞",
+    "example": "先生に勧められた本を読んでみる。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "叶う",
+    "reading": "かなう",
+    "meaning": "實現、如願以償",
+    "partOfSpeech": "自動詞",
+    "example": "長年の夢がようやく叶った。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "外れる",
+    "reading": "はずれる",
+    "meaning": "脫落、脫離、落空、不合適",
+    "partOfSpeech": "自動詞",
+    "example": "予想が大きく外れてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "改まる",
+    "reading": "あらたまる",
+    "meaning": "改、更新、改善、故作莊重",
+    "partOfSpeech": "自動詞",
+    "example": "年が改まり、新しい気持ちで出発する。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "改める",
+    "reading": "あらためる",
+    "meaning": "改變、修改、改正、檢驗",
+    "partOfSpeech": "他動詞",
+    "example": "悪い生活習慣を改めるべきだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "壊す",
+    "reading": "こわす",
+    "meaning": "弄壞、毀壞、損害（健康）",
+    "partOfSpeech": "他動詞",
+    "example": "無理をして体調を壊してしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "慣れる",
+    "reading": "なれる",
+    "meaning": "習慣、熟悉、親近",
+    "partOfSpeech": "自動詞",
+    "example": "新しい環境に早く慣れたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "解ける",
+    "reading": "とける",
+    "meaning": "解開、鬆開、化解、揭曉",
+    "partOfSpeech": "自動詞",
+    "example": "難しい数学の門題がようやく解けた。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "映る",
+    "reading": "うつる",
+    "meaning": "映照、反射、相稱",
+    "partOfSpeech": "自動詞",
+    "example": "鏡に自分の姿を映して確認する。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "延びる",
+    "reading": "のびる",
+    "meaning": "延長、推遲、失去彈性",
+    "partOfSpeech": "自動詞",
+    "example": "工事の期間が三ヶ月延びることになった。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "汚れる",
+    "reading": "よごれる",
+    "meaning": "髒了、被汙染",
+    "partOfSpeech": "自動詞",
+    "example": "雨で靴がひどく汚れてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "汚す",
+    "reading": "よごす",
+    "meaning": "弄髒、玷污",
+    "partOfSpeech": "他動詞",
+    "example": "不注意で服を汚してしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "演じる",
+    "reading": "えんじる",
+    "meaning": "表演、扮演、履行",
+    "partOfSpeech": "他動詞",
+    "example": "主役を演じるのはとても緊張する。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "応じる",
+    "reading": "おうじる",
+    "meaning": "答應、響應、按照、滿足",
+    "partOfSpeech": "自動詞",
+    "example": "リクエストに応えて、もう一曲歌う。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "解く",
+    "reading": "とく",
+    "meaning": "解開、拆開、解除、解答",
+    "partOfSpeech": "他動詞",
+    "example": "包みのリボンをゆっくり解く。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "稼ぐ",
+    "reading": "かせぐ",
+    "meaning": "賺錢、爭取（時間）、獲得",
+    "partOfSpeech": "自他動詞",
+    "example": "学費を稼ぐためにアルバイトをする。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "殴る",
+    "reading": "なぐる",
+    "meaning": "毆打、揍",
+    "partOfSpeech": "他動詞",
+    "example": "彼は怒りのあまり壁を殴った。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "営む",
+    "reading": "いとなむ",
+    "meaning": "營、從事、經營、營造",
+    "partOfSpeech": "他動詞",
+    "example": "彼は駅前でレストランを営んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "連行",
+    "reading": "れんこう",
+    "meaning": "帶走、押送（犯人等）",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "容疑者は警察署へ連行された。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "冷蔵",
+    "reading": "れいそう",
+    "meaning": "冷藏、冷凍",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "なまものは冷蔵で保存してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "連日",
+    "reading": "れんじつ",
+    "meaning": "連日、接連幾天",
+    "partOfSpeech": "名詞、副詞",
+    "example": "連日の猛暑で体調を崩す人が多い。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "倫理",
+    "reading": "りんり",
+    "meaning": "倫理、道德規範",
+    "partOfSpeech": "名詞",
+    "example": "科学者には高い倫理観が求められる。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "生ける",
+    "reading": "いける",
+    "meaning": "插花、 插花、使活、養（魚等）",
+    "partOfSpeech": "他動詞",
+    "example": "花瓶に美しいバラを生ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "もたらす",
+    "reading": "もたらす",
+    "meaning": "帶來、造成、招致",
+    "partOfSpeech": "他動詞",
+    "example": "新技術は社会に大きな変化をもたらした。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "両立",
+    "reading": "りょうりつ",
+    "meaning": "並存、兼容、兩全其美",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "仕事と育児を両立させるのは大変だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "連結",
+    "reading": "れんけつ",
+    "meaning": "聯結、連接、合併",
+    "partOfSpeech": "名詞、自他動詞",
+    "example": "二つの車両を連結して運行する。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "扱う",
+    "reading": "あつかう",
+    "meaning": "對待、處理、使用、管轄",
+    "partOfSpeech": "他動詞",
+    "example": "壊れ物なので、丁寧に扱ってください。",
+    "isFavorite": false
+  },
+  {
+    "id": 100,
+    "word": "異なる",
+    "reading": "ことなる",
+    "meaning": "不同、不一樣",
+    "partOfSpeech": "自動詞",
+    "example": "国によって文化や習慣が異なる。",
+    "isFavorite": false
+  }
+]

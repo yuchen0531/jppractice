@@ -1,0 +1,893 @@
+[
+  {
+    "id": 1,
+    "word": "鉛",
+    "reading": "なまり",
+    "meaning": "鉛",
+    "partOfSpeech": "名詞",
+    "example": "鉛は重くて柔らかい金属だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "渦",
+    "reading": "うず",
+    "meaning": "旋渦、混亂狀態、難以脫身的處境",
+    "partOfSpeech": "名詞",
+    "example": "事件の渦の中に巻き込まれてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "陰",
+    "reading": "かげ",
+    "meaning": "陰影、背後、負（電性）",
+    "partOfSpeech": "名詞",
+    "example": "木の陰で少し休みましょう。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "闇",
+    "reading": "やみ",
+    "meaning": "黑暗、黑市、不知所措",
+    "partOfSpeech": "名詞",
+    "example": "一寸先は闇という言葉がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "ロック",
+    "reading": "ろっく",
+    "meaning": "鎖、上鎖、搖滾樂、岩石",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "外出する時は必ずドアをロックしてください。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "レンタル",
+    "reading": "れんたる",
+    "meaning": "出租、租賃",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "旅行のためにレンタカーを借りることにした。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "レベル",
+    "reading": "レベル",
+    "meaning": "水準、程度、等級、水平儀",
+    "partOfSpeech": "名詞",
+    "example": "試験のレベルが年々上がっているようだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "ユニフォーム",
+    "reading": "ゆにふぉーむ",
+    "meaning": "制服、運動服",
+    "partOfSpeech": "名詞",
+    "example": "新しいユニフォームを着て試合に臨む。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "メロディー",
+    "reading": "めろでぃー",
+    "meaning": "旋律、曲調",
+    "partOfSpeech": "名詞",
+    "example": "この曲のメロディーはとても美しい。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "メディア",
+    "reading": "めでぃあ",
+    "meaning": "媒體、媒介",
+    "partOfSpeech": "名詞",
+    "example": "マスメディアの影響力は非常に大きい。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "マイナス",
+    "reading": "まいなす",
+    "meaning": "負數、減號、缺點、虧損",
+    "partOfSpeech": "名詞",
+    "example": "気温がマイナス5度まで下がった。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "メーン",
+    "reading": "めーん",
+    "meaning": "主要的、重要的",
+    "partOfSpeech": "名詞",
+    "example": "今日のイベントのメーン会場はこちらです。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "マッサージ",
+    "reading": "まっさーじ",
+    "meaning": "按摩、推拿",
+    "partOfSpeech": "名詞、他動詞、サ變動詞",
+    "example": "疲れたのでマッサージに行きたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "ホール",
+    "reading": "ほーる",
+    "meaning": "大廳、會館、孔穴、（高爾夫）球洞",
+    "partOfSpeech": "名詞",
+    "example": "コンサートホールには多くの客が集まった。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "ベース",
+    "reading": "べーす",
+    "meaning": "基地、基礎、樂器貝斯、男低音",
+    "partOfSpeech": "名詞",
+    "example": "この計画は去年のデータをベースにしている。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "プロ",
+    "reading": "ぷろ",
+    "meaning": "職業的、專業人士",
+    "partOfSpeech": "名詞",
+    "example": "彼はプロのカメラマンとして活躍している。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "ブランド",
+    "reading": "ぶらんど",
+    "meaning": "品牌、商標、名牌",
+    "partOfSpeech": "名詞",
+    "example": "高級ブランドのバッグを買う。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "プライド",
+    "reading": "ぷらいど",
+    "meaning": "自尊心、自豪感",
+    "partOfSpeech": "名詞",
+    "example": "彼は仕事に対して高いプライドを持っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "ファイル",
+    "reading": "ふぁいる",
+    "meaning": "文件、歸檔、文件夾",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "重要な資料をファイルに綴じる。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "ファイト",
+    "reading": "ふぁいと",
+    "meaning": "戰鬥、鬥志、加油",
+    "partOfSpeech": "名詞",
+    "example": "最後まで諦めずにファイトを燃やす。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "ヒント",
+    "reading": "ひんと",
+    "meaning": "提示、暗示、啟發",
+    "partOfSpeech": "名詞",
+    "example": "なぞなぞのヒントを教えてもらう。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "パワー",
+    "reading": "ぱわー",
+    "meaning": "力量、動力、權力、勢力",
+    "partOfSpeech": "名詞",
+    "example": "この車はエンジンパワーが強い。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "バック",
+    "reading": "ばっく",
+    "meaning": "背景、後盾、後退、背部",
+    "partOfSpeech": "名詞、自動詞、サ變動詞",
+    "example": "車をバックさせて庫に入れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "ネックレス",
+    "reading": "ねっくれす",
+    "meaning": "項鍊",
+    "partOfSpeech": "名詞",
+    "example": "誕生日に真珠のネックレスを贈る。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "トップ",
+    "reading": "とっぷ",
+    "meaning": "最高層、首位、第一名、頂端",
+    "partOfSpeech": "名詞",
+    "example": "彼女はクラスでトップの成績だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "デザイン",
+    "reading": "でざいん",
+    "meaning": "設計、圖案",
+    "partOfSpeech": "名詞、他動詞、サ變動詞",
+    "example": "このドレスはデザインが斬新だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "デザート",
+    "reading": "でざーと",
+    "meaning": "餐後甜點",
+    "partOfSpeech": "名詞",
+    "example": "食後にデザートのアイスクリームを食べる。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "チャンネル",
+    "reading": "ちゃんねる",
+    "meaning": "頻道、管道",
+    "partOfSpeech": "名詞",
+    "example": "テレビのチャンネルを回す。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "チャレンジ",
+    "reading": "ちゃれんじ",
+    "meaning": "挑戰",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "新しいことにチャレンジするのは素晴らしい。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "タッチ",
+    "reading": "たっち",
+    "meaning": "碰觸、涉及、筆觸、指法",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "画面にタッチして操作する。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "センス",
+    "reading": "せんす",
+    "meaning": "感覺、審美能力、品味",
+    "partOfSpeech": "名詞",
+    "example": "彼は洋服のセンスがいい。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "セット",
+    "reading": "せっと",
+    "meaning": "一組、布景、安置、梳整頭髮",
+    "partOfSpeech": "名詞、他動詞、サ變動詞",
+    "example": "ハンバーガーのセットを注文する。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "スペース",
+    "reading": "すぺーす",
+    "meaning": "空間、空白、空格鍵",
+    "partOfSpeech": "名詞",
+    "example": "本棚を置くためのスペースを作る。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "ストロー",
+    "reading": "すとろー",
+    "meaning": "吸管、麥稈",
+    "partOfSpeech": "名詞",
+    "example": "ストローでジュースを飲む。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "ストーリー",
+    "reading": "すとーりー",
+    "meaning": "故事、情節",
+    "partOfSpeech": "名詞",
+    "example": "この映画のストーリーは感動的だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "スタジオ",
+    "reading": "すたじお",
+    "meaning": "錄音室、播音室、工作室",
+    "partOfSpeech": "名詞",
+    "example": "スタジオで新曲のレコーディングを行う。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "スクリーン",
+    "reading": "すくりーん",
+    "meaning": "螢幕、銀幕、屏風",
+    "partOfSpeech": "名詞",
+    "example": "映画が大きなスクリーンに映し出される。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "ショック",
+    "reading": "しょっく",
+    "meaning": "衝擊、打擊、休克",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "試験に落ちて大きなショックを受けた。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "ジャンプ",
+    "reading": "じゃんぷ",
+    "meaning": "跳躍、飛躍",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "高くジャンプしてボールをキャッチする。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "サポート",
+    "reading": "さぽーと",
+    "meaning": "支援、支持、支撐",
+    "partOfSpeech": "名詞、他動詞、サ變動詞",
+    "example": "困っている友人を全力でサポートする。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "コメディー",
+    "reading": "こめでぃー",
+    "meaning": "喜劇、滑稽戲",
+    "partOfSpeech": "名詞",
+    "example": "週末はコメディー映画を見て笑いたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "グローバル",
+    "reading": "ぐろーばる",
+    "meaning": "全球的、全世界規模的",
+    "partOfSpeech": "形容動詞",
+    "example": "グローバルな視点で物事を考える。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "カウント",
+    "reading": "かうんと",
+    "meaning": "計算、記分、計數",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "ロケットの打ち上げまで秒読みをカウントする。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "カウンター",
+    "reading": "かうんたー",
+    "meaning": "櫃台、收銀台",
+    "partOfSpeech": "名詞",
+    "example": "カウンターで飲み物を注文する。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "カーペット",
+    "reading": "かーぺっと",
+    "meaning": "地毯、鋪墊物",
+    "partOfSpeech": "名詞",
+    "example": "部屋に赤いカーペットを敷く。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "ロマンチック",
+    "reading": "ろまんちっく",
+    "meaning": "浪漫的、傳奇的",
+    "partOfSpeech": "形容動詞",
+    "example": "夜景の見えるレストランでロマンチックな時間を過ごす。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "オーバー",
+    "reading": "おーばー",
+    "meaning": "超過、誇張、大衣、結束",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "予算をオーバーしてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "エプロン",
+    "reading": "えぷろん",
+    "meaning": "圍裙",
+    "partOfSpeech": "名詞",
+    "example": "エプロンをして料理を始める。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "エース",
+    "reading": "えーす",
+    "meaning": "頂尖人才、主力投手、王牌",
+    "partOfSpeech": "名詞",
+    "example": "彼はチームのエースとして期待されている。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "インフルエンザ",
+    "reading": "いんふるえんざ",
+    "meaning": "流行性感冒",
+    "partOfSpeech": "名詞",
+    "example": "インフルエンザが流行っているので注意が必要だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "ウイルス",
+    "reading": "ういるす",
+    "meaning": "病毒",
+    "partOfSpeech": "名詞",
+    "example": "コンピューターがウイルスに感染した。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "インタビュー",
+    "reading": "いんたびゅー",
+    "meaning": "採訪、訪問、面試",
+    "partOfSpeech": "名詞、サ變動詞",
+    "example": "有名な作家にインタビューを行う。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "例えば",
+    "reading": "たとえば",
+    "meaning": "例如、譬如",
+    "partOfSpeech": "副詞",
+    "example": "例えば、こんな方法はいかがでしょうか。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "必死に",
+    "reading": "ひっしに",
+    "meaning": "拼命地",
+    "partOfSpeech": "副詞",
+    "example": "必死に勉強して合格を勝ち取る。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "非常に",
+    "reading": "ひじょうに",
+    "meaning": "非常、很",
+    "partOfSpeech": "副詞",
+    "example": "昨日は非常に寒い一日だった。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "突然",
+    "reading": "とつぜん",
+    "meaning": "突然、冷不防",
+    "partOfSpeech": "副詞、形容動詞",
+    "example": "突然の雨に降られて困った。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "堂々と",
+    "reading": "どうどうと",
+    "meaning": "堂堂正正地、光明正大地",
+    "partOfSpeech": "副詞",
+    "example": "大勢の前で堂々とスピーチをする。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "当然",
+    "reading": "とうぜん",
+    "meaning": "當然、應當",
+    "partOfSpeech": "副詞、形容動詞",
+    "example": "努力したのだから、合格は当然の結果だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "大量に",
+    "reading": "たいりょうに",
+    "meaning": "大量地",
+    "partOfSpeech": "名詞",
+    "example": "商品を大量に仕入れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "急に",
+    "reading": "きゅうに",
+    "meaning": "突然、急忙",
+    "partOfSpeech": "副詞",
+    "example": "急に用事ができて行けなくなった。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "結局",
+    "reading": "けっきょく",
+    "meaning": "最後、結果、歸根究底",
+    "partOfSpeech": "名詞、副詞",
+    "example": "いろいろ迷ったが、結局これを買うことにした。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "今更",
+    "reading": "いまさら",
+    "meaning": "現在才、事到如今",
+    "partOfSpeech": "副詞",
+    "example": "今更後悔しても始まらない。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "最も",
+    "reading": "もっとも",
+    "meaning": "最、頂",
+    "partOfSpeech": "副詞",
+    "example": "富士山は日本で最も高い山だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "再び",
+    "reading": "ふたたび",
+    "meaning": "再次、重新",
+    "partOfSpeech": "副詞",
+    "example": "十年ぶりに再びこの地を訪れた。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "自ら",
+    "reading": "みずから",
+    "meaning": "自己、親自",
+    "partOfSpeech": "名詞、副詞",
+    "example": "社長が自ら陣頭指揮を執る。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "自然に",
+    "reading": "しぜんに",
+    "meaning": "自然而然地、自動地",
+    "partOfSpeech": "副詞",
+    "example": "毎日練習すれば、自然に覚えられる。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "絶対に",
+    "reading": "ぜったいに",
+    "meaning": "絕對、肯定",
+    "partOfSpeech": "副詞",
+    "example": "この秘密は絶対に誰にも言わないでください。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "全然",
+    "reading": "ぜんぜん",
+    "meaning": "完全（不）、根本（不）、非常（俗語）",
+    "partOfSpeech": "副詞",
+    "example": "昨夜は全然眠れなかった。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "まるで",
+    "reading": "まるで",
+    "meaning": "簡直、好像、宛如",
+    "partOfSpeech": "副詞",
+    "example": "合格したなんて、まるで夢のようだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "割に",
+    "reading": "わりに",
+    "meaning": "比較地、格外、出乎意料地",
+    "partOfSpeech": "副詞",
+    "example": "このレストランは安い割に美味しい。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "何とか",
+    "reading": "なんとか",
+    "meaning": "想辦法、設法、好歹、勉強",
+    "partOfSpeech": "副詞",
+    "example": "何とか期限までに間に合わせる。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "やっと",
+    "reading": "やっと",
+    "meaning": "終於、好不容易、勉強",
+    "partOfSpeech": "副詞",
+    "example": "長い工事がやっと終わった。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "態と",
+    "reading": "わざと",
+    "meaning": "故意地",
+    "partOfSpeech": "副詞",
+    "example": "彼はわざと負けてくれたようだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "わざわざ",
+    "reading": "わざわざ",
+    "meaning": "特地、故意",
+    "partOfSpeech": "副詞",
+    "example": "遠くからわざわざ来てくれてありがとう。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "一体",
+    "reading": "いったい",
+    "meaning": "到底、究竟、大體上、一體",
+    "partOfSpeech": "名詞、副詞",
+    "example": "一体、何が起きたというのですか。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "改めて",
+    "reading": "あらためて",
+    "meaning": "重新、再次",
+    "partOfSpeech": "副詞",
+    "example": "日を改めて、また伺います。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "確かに",
+    "reading": "たしかに",
+    "meaning": "確實、的確",
+    "partOfSpeech": "副詞",
+    "example": "確かに、おっしゃる通りです。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "仮に",
+    "reading": "かりに",
+    "meaning": "假設、暫時",
+    "partOfSpeech": "副詞",
+    "example": "仮に雨が降っても、イベントは開催します。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "間もなく",
+    "reading": "まもなく",
+    "meaning": "不久、一會兒",
+    "partOfSpeech": "副詞",
+    "example": "電車が間もなく参ります。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "取り敢えず",
+    "reading": "とりあえず",
+    "meaning": "首先、暫且、趕忙",
+    "partOfSpeech": "副詞",
+    "example": "取り敢えず、ビールをお願いします。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "大体",
+    "reading": "だいたい",
+    "meaning": "大約、大致上、本來",
+    "partOfSpeech": "名詞、副詞",
+    "example": "仕事は大体終わりました。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "お互いに",
+    "reading": "おたがいに",
+    "meaning": "彼此、互相",
+    "partOfSpeech": "副詞",
+    "example": "困ったときはお互い様だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "しょっちゅう",
+    "reading": "しょっちゅう",
+    "meaning": "經常、總是",
+    "partOfSpeech": "副詞",
+    "example": "彼はしょっちゅう忘れ物をする。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "既に",
+    "reading": "すでに",
+    "meaning": "已經、業已",
+    "partOfSpeech": "副詞",
+    "example": "会場に着いたときには、既に始まっていた。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "いよいよ",
+    "reading": "いよいよ",
+    "meaning": "終於、愈發、關鍵時刻",
+    "partOfSpeech": "副詞",
+    "example": "いよいよ明日が試験本番だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "大抵",
+    "reading": "たいてい",
+    "meaning": "大都、大抵、一般、大概",
+    "partOfSpeech": "名詞、副詞",
+    "example": "休みの日は大抵家で本を読んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "偶々",
+    "reading": "たまたま",
+    "meaning": "偶然、碰巧",
+    "partOfSpeech": "副詞",
+    "example": "駅でたまたま昔の友人に会った。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "どうか",
+    "reading": "どうか",
+    "meaning": "請、設法、不正常、是否",
+    "partOfSpeech": "副詞",
+    "example": "どうか、無事でいてください。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "何だか",
+    "reading": "なんだか",
+    "meaning": "總覺得、總有點",
+    "partOfSpeech": "副詞",
+    "example": "今日は何だか体がだるい。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "幾らか",
+    "reading": "いくらか",
+    "meaning": "多少、稍微",
+    "partOfSpeech": "副詞",
+    "example": "景気が幾らか良くなってきたようだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "いきなり",
+    "reading": "いきなり",
+    "meaning": "突然、冷不防、立刻",
+    "partOfSpeech": "副詞",
+    "example": "いきなり後ろから声をかけられて驚いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "あちこち",
+    "reading": "あちこち",
+    "meaning": "到處；顛倒（語境不同）",
+    "partOfSpeech": "名詞",
+    "example": "休暇を利用して、京都のあちこちを観光した。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "あれこれ",
+    "reading": "あれこれ",
+    "meaning": "這個那個、種種",
+    "partOfSpeech": "名詞、副詞",
+    "example": "あれこれ悩んでも解決しない。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "冷静",
+    "reading": "れいせい",
+    "meaning": "冷靜、沉著",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "トラブルが起きても冷静に対応する。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "理性的",
+    "reading": "りせいてき",
+    "meaning": "理性的",
+    "partOfSpeech": "形容動詞",
+    "example": "感情に流されず、理性的な判断を下す。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "容易",
+    "reading": "ようい",
+    "meaning": "容易、簡單",
+    "partOfSpeech": "形容動詞",
+    "example": "この問題を解決するのは容易ではない。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "有益",
+    "reading": "ゆうえき",
+    "meaning": "有益、有好處",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "読書は人生において非常に有益だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "優先的",
+    "reading": "ゆうせんてき",
+    "meaning": "優先的",
+    "partOfSpeech": "形容動詞",
+    "example": "緊急度の高い仕事から優先的に進める。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "明白",
+    "reading": "めいはく",
+    "meaning": "明白、明顯",
+    "partOfSpeech": "形容動詞",
+    "example": "彼が犯人であることは明白な事実だ。",
+    "isFavorite": false
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "word": "職業",
+    "reading": "しょくぎょう",
+    "meaning": "職業",
+    "partOfSpeech": "名詞",
+    "example": "あなたの職業は何ですか。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "状況",
+    "reading": "じょうきょう",
+    "meaning": "情況、狀況",
+    "partOfSpeech": "名詞",
+    "example": "現地の状況を詳しく報告してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "条件",
+    "reading": "じょうけん",
+    "meaning": "條件、條款",
+    "partOfSpeech": "名詞",
+    "example": "採用の条件を確認する。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "証人",
+    "reading": "しょうにん",
+    "meaning": "證人、保證人",
+    "partOfSpeech": "名詞",
+    "example": "彼はその事件の証人として出廷した。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "証明",
+    "reading": "しょうめい",
+    "meaning": "證明、證實",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "身分を証明するものが必要です。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "証言",
+    "reading": "しょうげん",
+    "meaning": "證言、作證",
+    "partOfSpeech": "名詞",
+    "example": "目撃者が警察で証言した。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "状態",
+    "reading": "じょうたい",
+    "meaning": "狀態、情形",
+    "partOfSpeech": "名詞",
+    "example": "健康状態は非常に良いです。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "情報",
+    "reading": "じょうほう",
+    "meaning": "情報、消息、資訊",
+    "partOfSpeech": "名詞",
+    "example": "インターネットで情報を集める。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "消滅",
+    "reading": "しょうめつ",
+    "meaning": "消滅、消失",
+    "partOfSpeech": "名詞",
+    "example": "古い習慣が消滅しつつある。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "消費",
+    "reading": "しょうひ",
+    "meaning": "消費、耗費",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "エネルギーを節約して消費を抑える。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "初日",
+    "reading": "しょにち",
+    "meaning": "第一天、首日",
+    "partOfSpeech": "名詞",
+    "example": "旅行の初日は雨だった。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "準備",
+    "reading": "じゅんび",
+    "meaning": "準備、籌備",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "明日の試験の準備をする。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "縮小",
+    "reading": "しゅくしょう",
+    "meaning": "縮小、縮減",
+    "partOfSpeech": "名詞、自他動詞",
+    "example": "予算を縮小しなければならない。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "祝日",
+    "reading": "しゅくじつ",
+    "meaning": "節日、祝日",
+    "partOfSpeech": "名詞",
+    "example": "明日は祝日なので会社は休みです。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "重点",
+    "reading": "じゅうてん",
+    "meaning": "重點",
+    "partOfSpeech": "名詞",
+    "example": "環境保護に重点を置いた政策。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "重視",
+    "reading": "じゅうし",
+    "meaning": "重視",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "わが社はチームワークを重視している。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "商店",
+    "reading": "しょうてん",
+    "meaning": "商店",
+    "partOfSpeech": "名詞",
+    "example": "駅の近くに多くの商店がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "助言",
+    "reading": "じょげん",
+    "meaning": "忠告、建議",
+    "partOfSpeech": "名詞",
+    "example": "先生から適切な助言をいただいた。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "所有",
+    "reading": "しょゆう",
+    "meaning": "所有、擁有",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "この土地は彼が所有している。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "消去",
+    "reading": "しょうきょ",
+    "meaning": "消失、消去",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "間違えたデータを消去する。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "就職",
+    "reading": "しゅうしょく",
+    "meaning": "就職、就業、找到工作",
+    "partOfSpeech": "名詞",
+    "example": "大学を卒業して、IT企業に就職した。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "修正",
+    "reading": "しゅうせい",
+    "meaning": "修正、修改、訂正",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "提出する前に、もう一度計画案を修正する。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "周囲",
+    "reading": "しゅうい",
+    "meaning": "四周、周圍、環境",
+    "partOfSpeech": "名詞",
+    "example": "公園の周囲を散歩する。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "習慣、風俗習慣",
+    "partOfSpeech": "名詞",
+    "example": "早寝早起きの習慣を身につける。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "従来",
+    "reading": "じゅうらい",
+    "meaning": "從來、一直以來、以前",
+    "partOfSpeech": "名詞、副詞",
+    "example": "従来の方法では、この問題は解決できない。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "収入",
+    "reading": "しゅうにゅう",
+    "meaning": "收入、所得",
+    "partOfSpeech": "名詞",
+    "example": "彼は副業でかなりの収入を得ている。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "収益",
+    "reading": "しゅうえき",
+    "meaning": "收益、利潤",
+    "partOfSpeech": "名詞",
+    "example": "新製品の発売により、収益が大幅に上がった。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "需要",
+    "reading": "じゅよう",
+    "meaning": "需求、需要",
+    "partOfSpeech": "名詞",
+    "example": "冬になると、暖房器具の需要が高まる。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "受賞",
+    "reading": "じゅしょう",
+    "meaning": "獲獎、得獎",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼女はノーベル文学賞を受賞した。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "首相",
+    "reading": "しゅしょう",
+    "meaning": "首相、內閣總理大臣",
+    "partOfSpeech": "名詞",
+    "example": "首相が新しい政策を発表した。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "手段",
+    "reading": "しゅだん",
+    "meaning": "手段、辦法",
+    "partOfSpeech": "名詞",
+    "example": "目的のためには手段を選ばない。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "取材",
+    "reading": "しゅざい",
+    "meaning": "取材、採訪",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "記者が事件の現場を取材している。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "取引",
+    "reading": "とりひき",
+    "meaning": "交易、買賣、生意",
+    "partOfSpeech": "名詞",
+    "example": "あの会社とは長年取引がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "主張",
+    "reading": "しゅちょう",
+    "meaning": "主張、堅持、看法",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "自分の意見をはっきりと主張する。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "車両",
+    "reading": "しゃりょう",
+    "meaning": "車輛",
+    "partOfSpeech": "名詞",
+    "example": "一両目の車両は女性専用車です。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "車庫",
+    "reading": "しゃこ",
+    "meaning": "車庫",
+    "partOfSpeech": "名詞",
+    "example": "車を車庫に入れて鍵をかける。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "実践",
+    "reading": "じっせん",
+    "meaning": "實踐、實行",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "学んだ理論を実生活で実践する。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "実家",
+    "reading": "じっか",
+    "meaning": "老家、娘家、父母家",
+    "partOfSpeech": "名詞",
+    "example": "正月休みは実家に帰るつもりだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "実在",
+    "reading": "じつざい",
+    "meaning": "實際存在、實有其事",
+    "partOfSpeech": "名詞",
+    "example": "この小説の主人公は実在の人物だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "失言",
+    "reading": "しつげん",
+    "meaning": "失言、說錯話",
+    "partOfSpeech": "名詞",
+    "example": "うっかり失言をして、相手を怒らせてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "治療",
+    "reading": "ちりょう",
+    "meaning": "治療、醫治",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "早めに病気の治療を始めることが大切だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "持参",
+    "reading": "じさん",
+    "meaning": "帶來、攜帶、自備",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "当日はお弁当を持参してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "事例",
+    "reading": "じれい",
+    "meaning": "事例、案例",
+    "partOfSpeech": "名詞",
+    "example": "過去の成功事例を参考に検討する。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "自覚",
+    "reading": "じかく",
+    "meaning": "自覺、認識到、自知之明",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "リーダーとしての自覚を持って行動する。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "自己",
+    "reading": "じこ",
+    "meaning": "自我、自己",
+    "partOfSpeech": "名詞",
+    "example": "自己紹介をお願いします。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "次第",
+    "reading": "しだい",
+    "meaning": "情況、順序、視...而定、一...就...",
+    "partOfSpeech": "名詞、接尾辭",
+    "example": "準備ができ次第、出発します。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "時期",
+    "reading": "じき",
+    "meaning": "時期、時候、期間",
+    "partOfSpeech": "名詞",
+    "example": "新しい事業を始めるのに良い時期だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "事前",
+    "reading": "じぜん",
+    "meaning": "事前、事先",
+    "partOfSpeech": "名詞",
+    "example": "訪問する前に、事前連絡を入れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "事項",
+    "reading": "じこう",
+    "meaning": "事項、項目",
+    "partOfSpeech": "名詞",
+    "example": "注意事項をよく読んでから記入してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "資源",
+    "reading": "しげん",
+    "meaning": "資源",
+    "partOfSpeech": "名詞",
+    "example": "天然資源を大切に守る。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "支持",
+    "reading": "しじ",
+    "meaning": "支持、贊成",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "国民は政府の新しい方針を支持している。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "指示",
+    "reading": "しじ",
+    "meaning": "指示、命令、吩咐",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "上司の指示に従って作業を進める。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "視線",
+    "reading": "しせん",
+    "meaning": "視線、目光",
+    "partOfSpeech": "名詞",
+    "example": "熱い視線を感じて振り返った。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "視力",
+    "reading": "しりょく",
+    "meaning": "視力",
+    "partOfSpeech": "名詞",
+    "example": "最近、視力が落ちてきた気がする。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "思考",
+    "reading": "しこう",
+    "meaning": "思考、考慮",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "思考プロセスを論理的に説明する。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "視野",
+    "reading": "しや",
+    "meaning": "視野、眼界",
+    "partOfSpeech": "名詞",
+    "example": "海外留学は視野を広げる良い機会だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "視点",
+    "reading": "してん",
+    "meaning": "視角、觀點",
+    "partOfSpeech": "名詞",
+    "example": "多角的な視点から物事を考える。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "支店",
+    "reading": "してん",
+    "meaning": "分店、分公司",
+    "partOfSpeech": "名詞",
+    "example": "来月、大阪に新しい支店がオープンする。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "志望",
+    "reading": "しぼう",
+    "meaning": "志願、願望、希望",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "第一志望の大学に合格した。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "脂肪",
+    "reading": "しぼう",
+    "meaning": "脂肪",
+    "partOfSpeech": "名詞",
+    "example": "健康のために体脂肪を減らす努力をする。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "作戦",
+    "reading": "さくせん",
+    "meaning": "作戰、作戰策略",
+    "partOfSpeech": "名詞",
+    "example": "勝利のために新しい作戦を練る。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "財政",
+    "reading": "ざいせい",
+    "meaning": "財政、經濟情況",
+    "partOfSpeech": "名詞",
+    "example": "市の財政を立て直す必要がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "作用",
+    "reading": "さよう",
+    "meaning": "作用、起作用",
+    "partOfSpeech": "名詞",
+    "example": "この薬は脳に直接作用する。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "在庫",
+    "reading": "ざいこ",
+    "meaning": "庫存、存貨",
+    "partOfSpeech": "名詞",
+    "example": "商品の在庫を確認してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "才能",
+    "reading": "さいのう",
+    "meaning": "才能、才華",
+    "partOfSpeech": "名詞",
+    "example": "彼は音楽において素晴らしい才能を持っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "再現",
+    "reading": "さいげん",
+    "meaning": "再現、重現",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "実験で同じ現象を再現させる。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "殺人",
+    "reading": "さつじん",
+    "meaning": "殺人",
+    "partOfSpeech": "名詞",
+    "example": "警察が殺人事件の捜査を開始した。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "参考",
+    "reading": "さんこう",
+    "meaning": "參考、借鑑",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "この資料を参考にしてレポートを書く。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "採用",
+    "reading": "さいよう",
+    "meaning": "採用、錄用",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "新しいシステムを採用することに決まった。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "残業",
+    "reading": "ざんぎょう",
+    "meaning": "加班",
+    "partOfSpeech": "名詞",
+    "example": "仕事が終わらなくて、毎日残業している。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "国有",
+    "reading": "こくゆう",
+    "meaning": "國有",
+    "partOfSpeech": "名詞",
+    "example": "この鉄道は国有化されている。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "告白",
+    "reading": "こくはく",
+    "meaning": "告白、表白、坦白",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "勇気を出して、自分の気持ちを彼女に告白した。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "高原",
+    "reading": "こうげん",
+    "meaning": "高原",
+    "partOfSpeech": "名詞",
+    "example": "夏休みは涼しい高原で過ごしたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "合意",
+    "reading": "ごうい",
+    "meaning": "同意、意見一致",
+    "partOfSpeech": "名詞",
+    "example": "両国は貿易協定に合意した。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "合成",
+    "reading": "ごうせい",
+    "meaning": "合成",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "複数の音を合成して新しい曲を作る。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "困難",
+    "reading": "こんなん",
+    "meaning": "困難、窮困",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "数々の困難を乗り越えて成功した。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "混同",
+    "reading": "こんどう",
+    "meaning": "混同、混為一談",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "公私を混同してはいけない。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "再建",
+    "reading": "さいけん",
+    "meaning": "重建、重新建設",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "震災で壊れた建物を再建する。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "購入",
+    "reading": "こうにゅう",
+    "meaning": "購買、買進",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "新しいパソコンを購入した。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "講義",
+    "reading": "こうぎ",
+    "meaning": "講課、講義",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "大学で歴史の講義を受ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "攻撃",
+    "reading": "こうげき",
+    "meaning": "攻擊（也可指言語上的批評）",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "敵の陣地を攻撃する。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "行進",
+    "reading": "こうしん",
+    "meaning": "行進、遊行",
+    "partOfSpeech": "名詞",
+    "example": "選手たちが堂々と行進する。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "行為",
+    "reading": "こうい",
+    "meaning": "行為（偏抽象）",
+    "partOfSpeech": "名詞",
+    "example": "彼の行為は称賛に値する。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "更新",
+    "reading": "こうしん",
+    "meaning": "更新、刷新、革新",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "世界記録を更新した。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "構成",
+    "reading": "こうせい",
+    "meaning": "構成、組織、結構",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "この本は五つの章で構成されている。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "構造",
+    "reading": "こうぞう",
+    "meaning": "結構、構造",
+    "partOfSpeech": "名詞",
+    "example": "建物の構造を詳しく調べる。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "行政",
+    "reading": "ぎょうせい",
+    "meaning": "行政",
+    "partOfSpeech": "名詞",
+    "example": "行政のサービスを改善する。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "工夫",
+    "reading": "くふう",
+    "meaning": "設法、想辦法、竅門",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "料理の盛り付けを工夫する。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "幸福",
+    "reading": "こうふく",
+    "meaning": "幸福",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "家族と一緒に過ごす時間が一番の幸福だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "工作",
+    "reading": "こうさく",
+    "meaning": "手工製作、工藝活動（偏手作）",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "図工の時間に木で工作をした。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "効果",
+    "reading": "こうか",
+    "meaning": "效果、成效",
+    "partOfSpeech": "名詞",
+    "example": "この薬はすぐに効果が現れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "交付",
+    "reading": "こうふ",
+    "meaning": "交付、交給",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "新しい免許証が交付された。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "口述",
+    "reading": "こうじゅつ",
+    "meaning": "口述",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼は自分の体験を口述して記録に残した。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "誤解",
+    "reading": "ごかい",
+    "meaning": "誤解、誤會",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "言葉が足りなくて、誤解を招いてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "向上",
+    "reading": "こうじょう",
+    "meaning": "向上、提高、進步",
+    "partOfSpeech": "名詞",
+    "example": "技術の向上を目指して練習に励む。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "口論",
+    "reading": "こうろん",
+    "meaning": "口角、爭吵",
+    "partOfSpeech": "名詞",
+    "example": "ささいなことで友人と言い合いになり、口論になった。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "口座",
+    "reading": "こうざ",
+    "meaning": "戶頭、帳戶",
+    "partOfSpeech": "名詞",
+    "example": "銀行で新しい口座を開設する。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "後悔",
+    "reading": "こうかい",
+    "meaning": "後悔、懊悔",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "あの時もっと勉強しておけばよかったと後悔している。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "語学",
+    "reading": "ごがく",
+    "meaning": "語言學、外語學習",
+    "partOfSpeech": "名詞",
+    "example": "将来のために、語学力を身につけたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 100,
+    "word": "顧客",
+    "reading": "こかく",
+    "meaning": "顧客、熟客",
+    "partOfSpeech": "名詞",
+    "example": "顧客のニーズに合わせたサービスを提供する。",
+    "isFavorite": false
+  }
+]

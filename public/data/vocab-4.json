@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "word": "理論",
+    "reading": "りろん",
+    "meaning": "理論、原理、學說",
+    "partOfSpeech": "名詞",
+    "example": "彼の理論は非常に説得力がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "理性",
+    "reading": "りせい",
+    "meaning": "理性、理智",
+    "partOfSpeech": "名詞",
+    "example": "感情に走らず、理性で判断する。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "理由",
+    "reading": "りゆう",
+    "meaning": "理由、緣故、藉口",
+    "partOfSpeech": "名詞",
+    "example": "会社を休んだ正当な理由を説明する。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "翌日",
+    "reading": "よくじつ",
+    "meaning": "翌日、隔天、次日",
+    "partOfSpeech": "名詞、副詞",
+    "example": "手術の翌日に退院することができた。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "養成",
+    "reading": "ようせい",
+    "meaning": "培養、造就、培訓",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "専門的なスキルを持つ人材を養成する。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "利子",
+    "reading": "りし",
+    "meaning": "利息、利錢",
+    "partOfSpeech": "名詞",
+    "example": "銀行に預金して利子を受け取る。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "利益",
+    "reading": "りえき",
+    "meaning": "利益、盈利、好處",
+    "partOfSpeech": "名詞",
+    "example": "会社は今期、多額の利益を上げた。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "要約",
+    "reading": "ようやく",
+    "meaning": "摘要、概括",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "長い論文を短い文章に要約する。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "流出",
+    "reading": "りゅうしゅつ",
+    "meaning": "流出、外洩",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "個人情報が外部に流出した可能性がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "了解",
+    "reading": "りょうかい",
+    "meaning": "了解、理解、明白",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "指示の内容を了解しました。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "用件",
+    "reading": "ようけん",
+    "meaning": "事情、要辦的事",
+    "partOfSpeech": "名詞",
+    "example": "急な用件で連絡しました。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "様子",
+    "reading": "ようす",
+    "meaning": "情況、神情、跡象",
+    "partOfSpeech": "名詞",
+    "example": "しばらく外の様子をうかがう。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "余裕",
+    "reading": "よゆう",
+    "meaning": "寬裕、充裕、從容",
+    "partOfSpeech": "名詞",
+    "example": "時間的な余裕を持って出発する。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "予防",
+    "reading": "よほう",
+    "meaning": "預防",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "風邪の予防には手洗いとうがいが大切だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "予想",
+    "reading": "よそう",
+    "meaning": "預料、預測、預想",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "試合の結果を予想するのは難しい。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "予告",
+    "reading": "よこく",
+    "meaning": "預告、事先通知",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "人気映画の続編が予告された。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "予言",
+    "reading": "よげん",
+    "meaning": "預言、預告",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼の予言が現実になった。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "用意",
+    "reading": "ようい",
+    "meaning": "準備、防備",
+    "partOfSpeech": "名詞、自他動詞",
+    "example": "食事の用意が整いました。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "要求",
+    "reading": "ようきゅう",
+    "meaning": "要求、需要",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "労働組合が賃上げを要求する。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "要請",
+    "reading": "ようせい",
+    "meaning": "請求、要求",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "被災地が政府に救助を要請した。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "目撃",
+    "reading": "もくげき",
+    "meaning": "目擊、親眼看到",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "事故の瞬間を目撃した人がいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "目下",
+    "reading": "もっか",
+    "meaning": "當前、目前",
+    "partOfSpeech": "名詞、副詞",
+    "example": "問題の解決に目下取り組んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "目的",
+    "reading": "もくてき",
+    "meaning": "目的、目標",
+    "partOfSpeech": "名詞",
+    "example": "旅の目的は温泉に入ることだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "優位",
+    "reading": "ゆうい",
+    "meaning": "優越地位、優勢",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "交渉において優位な立場に立つ。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "優先",
+    "reading": "ゆうせん",
+    "meaning": "優先",
+    "partOfSpeech": "名詞",
+    "example": "歩行者を優先して運転する。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "有効",
+    "reading": "ゆうこう",
+    "meaning": "有效、有效力",
+    "partOfSpeech": "形容動詞",
+    "example": "このチケットは一週間有効です。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "目線",
+    "reading": "めせん",
+    "meaning": "視線、視角、角度",
+    "partOfSpeech": "名詞",
+    "example": "子供の目線に立って物事を考える。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "有力",
+    "reading": "ゆうりょく",
+    "meaning": "有力、有勢力、最有希望",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼は次期大統領の有力な候補だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "予感",
+    "reading": "よかん",
+    "meaning": "預感、預兆",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "何か悪いことが起きる予感がする。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "予期",
+    "reading": "よき",
+    "meaning": "預期、預料",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "予期せぬ出来事に驚く。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "本心",
+    "reading": "ほんしん",
+    "meaning": "本心、真心、真話",
+    "partOfSpeech": "名詞",
+    "example": "彼は本心をめったに口にしない。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "本能",
+    "reading": "ほんのう",
+    "meaning": "本能",
+    "partOfSpeech": "名詞",
+    "example": "動物は本能に従って行動する。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "埋葬",
+    "reading": "まいそう",
+    "meaning": "埋葬",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "遺体を故郷の墓地に埋葬する。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "万人",
+    "reading": "ばんにん",
+    "meaning": "萬人、大眾",
+    "partOfSpeech": "名詞",
+    "example": "この料理は万人に好まれる味だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "無言",
+    "reading": "むごん",
+    "meaning": "無言、沈默",
+    "partOfSpeech": "名詞",
+    "example": "彼は無言のまま立ち去った。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "魅力",
+    "reading": "みりょく",
+    "meaning": "吸引力、魅力",
+    "partOfSpeech": "名詞",
+    "example": "彼女には不思議な魅力がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "無効",
+    "reading": "むこう",
+    "meaning": "無效、失效",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "期限を過ぎた切符は無効になる。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "無断",
+    "reading": "むだん",
+    "meaning": "擅自、私自",
+    "partOfSpeech": "名詞",
+    "example": "無断で他人の部屋に入ってはいけない。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "面倒",
+    "reading": "めんどう",
+    "meaning": "麻煩、費事（+ 照顧他人：面倒を見る）",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "面倒な手続きを簡略化する。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "模様",
+    "reading": "もよう",
+    "meaning": "花紋、樣式、情況、跡象",
+    "partOfSpeech": "名詞",
+    "example": "着物に綺麗な模様がついている。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "報告",
+    "reading": "ほうこく",
+    "meaning": "報告、匯報",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "調査の結果を上司に報告する。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "報道",
+    "reading": "ほうどう",
+    "meaning": "報導",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "ニュースで事件の詳細が報道された。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "崩壊",
+    "reading": "ほうかい",
+    "meaning": "崩潰、瓦解",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "地震によって古い建物が崩壊した。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "方針",
+    "reading": "ほうしん",
+    "meaning": "方針、政策",
+    "partOfSpeech": "名詞",
+    "example": "政府は新しい教育方針を決定した。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "法律",
+    "reading": "ほうりつ",
+    "meaning": "法律",
+    "partOfSpeech": "名詞",
+    "example": "法律を遵守することは国民の義務だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "暴力",
+    "reading": "ぼうりょく",
+    "meaning": "暴力、武力",
+    "partOfSpeech": "名詞",
+    "example": "いかなる理由があっても暴力は許されない。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "防止",
+    "reading": "ぼうし",
+    "meaning": "防止",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "再発防止のための対策を講じる。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "本音",
+    "reading": "ほんね",
+    "meaning": "真心話",
+    "partOfSpeech": "名詞",
+    "example": "酒を飲むと、つい本音が出る。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "本気",
+    "reading": "ほんき",
+    "meaning": "認真、當真",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "冗談ではなく、本気で言っているのだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "本場",
+    "reading": "ほんば",
+    "meaning": "原產地、發源地、正宗",
+    "partOfSpeech": "名詞",
+    "example": "イタリアで本場のパスタを食べる。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "変形",
+    "reading": "へんけい",
+    "meaning": "變形",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "熱によってプラスチックが変形する。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "変換",
+    "reading": "へんかん",
+    "meaning": "變換、轉換",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "ひらがなを漢字に変換する。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "分別",
+    "reading": "ふんべつ",
+    "meaning": "辨別力、判斷力、分別",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "善悪の分別がつく大人になる。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "分析",
+    "reading": "ぶんせき",
+    "meaning": "分析、剖析",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "データを詳しく分析して報告する。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "保育",
+    "reading": "ほいく",
+    "meaning": "保育、養育",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "保育の質を高めることが重要だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "保温",
+    "reading": "ほおん",
+    "meaning": "保溫",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "スープが冷めないように保温する。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "保管",
+    "reading": "ほかん",
+    "meaning": "保管",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "重要書類を金庫に保管する。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "補給",
+    "reading": "ほきゅう",
+    "meaning": "補給、補充",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "運動中は水分補給を忘れないように。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "保険",
+    "reading": "ほけん",
+    "meaning": "保險、保證",
+    "partOfSpeech": "名詞",
+    "example": "もしもの時に備えて生命保険に入る。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "補充",
+    "reading": "ほじゅう",
+    "meaning": "補充",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "欠員が出たのでスタッフを補充する。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "分業",
+    "reading": "ぶんぎょう",
+    "meaning": "分工合作",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "効率を上げるために分業制を導入する。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "分解",
+    "reading": "ぶんかい",
+    "meaning": "拆卸、分解",
+    "partOfSpeech": "名詞、自他動詞",
+    "example": "機械を分解して中身を調べる。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "物体",
+    "reading": "ぶったい",
+    "meaning": "物體",
+    "partOfSpeech": "名詞",
+    "example": "正体不明の物体が空を飛んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "物事",
+    "reading": "ものごと",
+    "meaning": "事物、事情",
+    "partOfSpeech": "名詞",
+    "example": "物事をポジティブに考える。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "物資",
+    "reading": "ぶっし",
+    "meaning": "物資",
+    "partOfSpeech": "名詞",
+    "example": "被災地に救援物資を送る。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "物語",
+    "reading": "ものがたり",
+    "meaning": "故事、傳說",
+    "partOfSpeech": "名詞",
+    "example": "この物語は多くの人に感動を与えた。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "複合",
+    "reading": "ふくごう",
+    "meaning": "複合、合成",
+    "partOfSpeech": "名詞、自他動詞",
+    "example": "複数の要素が複合した問題だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "服装",
+    "reading": "ふくそう",
+    "meaning": "服裝、穿著",
+    "partOfSpeech": "名詞",
+    "example": "TPOに合わせた服装を心がける。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "復習",
+    "reading": "ふくしゅう",
+    "meaning": "復習",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "学んだことを忘れないうちに復習する。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "部門",
+    "reading": "ぶもん",
+    "meaning": "部門、方面",
+    "partOfSpeech": "名詞",
+    "example": "彼は製造部門の責任者だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "浮気",
+    "reading": "うわき",
+    "meaning": "見異思遷、外遇、花心",
+    "partOfSpeech": "名詞",
+    "example": "夫の浮気が原因で離婚した。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "負担",
+    "reading": "ふたん",
+    "meaning": "負擔、承擔",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "家計の負担を減らす工夫をする。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "舞台",
+    "reading": "ぶたい",
+    "meaning": "舞台、表演場地",
+    "partOfSpeech": "名詞",
+    "example": "彼女は世界を舞台に活躍している。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "負債",
+    "reading": "ふさい",
+    "meaning": "負債、欠債",
+    "partOfSpeech": "名詞",
+    "example": "多額の負債を抱えて倒産した。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "普及",
+    "reading": "ふきゅう",
+    "meaning": "普及",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "スマートフォンは急速に普及した。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "不調",
+    "reading": "ふじょう",
+    "meaning": "狀況不佳、不順利",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "最近、どうも体の調子が不調だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "不順",
+    "reading": "ふじゅん",
+    "meaning": "不順、異常、沒道理",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "天候不順のため作物が育たない。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "貧富",
+    "reading": "ひんぶ",
+    "meaning": "貧富",
+    "partOfSpeech": "名詞",
+    "example": "社会の貧富の差が拡大している。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "貧困",
+    "reading": "ひんこん",
+    "meaning": "貧困、貧乏",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "貧困から抜け出すために教育が必要だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "品種",
+    "reading": "ひんしゅ",
+    "meaning": "品種、種類",
+    "partOfSpeech": "名詞",
+    "example": "新しい品種のイチゴを開発する。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "評価",
+    "reading": "ひょうか",
+    "meaning": "評價、估價",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "上司から仕事ぶりを高く評価された。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "表情",
+    "reading": "ひょうじょう",
+    "meaning": "表情",
+    "partOfSpeech": "名詞",
+    "example": "彼の表情から不安が読み取れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "筆者",
+    "reading": "ひっしゃ",
+    "meaning": "筆者、作者",
+    "partOfSpeech": "名詞",
+    "example": "筆者はこの問題に警鐘を鳴らしている。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "被害",
+    "reading": "ひがい",
+    "meaning": "受害、損失",
+    "partOfSpeech": "名詞",
+    "example": "台風により甚大な被害が出た。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "秘密",
+    "reading": "ひみつ",
+    "meaning": "秘密、機密",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "この話は絶対に秘密にしておいてください。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "皮肉",
+    "reading": "ひにく",
+    "meaning": "諷刺、挖苦",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼はよく皮肉を言うので嫌われている。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "比率",
+    "reading": "ひりつ",
+    "meaning": "比率、比例",
+    "partOfSpeech": "名詞",
+    "example": "男女の比率を調査する。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "比較",
+    "reading": "ひかく",
+    "meaning": "比較",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "二つの商品を比較して選ぶ。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "批判",
+    "reading": "ひはん",
+    "meaning": "批判、批評、評論",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "政府の政策を批判する。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "否定",
+    "reading": "ひてい",
+    "meaning": "否定、不承認",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼はその事実を真っ向から否定した。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "反撃",
+    "reading": "はんげき",
+    "meaning": "反擊、還擊",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "不利な状況から反撃を開始する。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "反響",
+    "reading": "はんきょう",
+    "meaning": "回響、反應",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "新製品は大きな反響を呼んだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "反感",
+    "reading": "はんかん",
+    "meaning": "反感",
+    "partOfSpeech": "名詞",
+    "example": "彼の強引なやり方に反感を覚える。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "判決",
+    "reading": "はんけつ",
+    "meaning": "判決",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "裁判所が被告に有罪の判決を下した。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "判断",
+    "meaning": "判斷、決定",
+    "reading": "はんだん",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "現状を客観的に判断する。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "判定",
+    "reading": "はんてい",
+    "meaning": "判定、裁定",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "審判の判定に異議を申し立てる。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "発砲",
+    "reading": "はっぽう",
+    "meaning": "開槍、開炮",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "警官が犯人に向けて発砲した。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "反応",
+    "reading": "はんのう",
+    "meaning": "反應、回響",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "刺激に対して体が敏感に反応する。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "反省",
+    "reading": "はんせい",
+    "meaning": "反省、自我檢查",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "自分の過ちを深く反省する。",
+    "isFavorite": false
+  },
+  {
+    "id": 100,
+    "word": "犯罪",
+    "reading": "はんざい",
+    "meaning": "犯罪",
+    "partOfSpeech": "名詞",
+    "example": "ネット犯罪から身を守る対策をとる。",
+    "isFavorite": false
+  }
+]

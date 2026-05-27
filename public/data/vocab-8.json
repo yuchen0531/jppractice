@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "word": "絆",
+    "reading": "きずな",
+    "meaning": "紐帶、羈絆、情感的聯繫",
+    "partOfSpeech": "名詞",
+    "example": "家族の絆を大切にする。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "枠",
+    "reading": "わく",
+    "meaning": "框、框架、範圍、界限",
+    "partOfSpeech": "名詞",
+    "example": "予算の枠を超えてしまう。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "暦",
+    "reading": "こよみ",
+    "meaning": "曆、曆法、日曆",
+    "partOfSpeech": "名詞",
+    "example": "暦の上ではもう秋だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "寮",
+    "reading": "りょう",
+    "meaning": "宿舍",
+    "partOfSpeech": "名詞",
+    "example": "学生寮で生活している。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "類い",
+    "reading": "たぐい",
+    "meaning": "類、同類、匹敵",
+    "partOfSpeech": "名詞",
+    "example": "その類いの話は聞いたことがない。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "例",
+    "reading": "れい",
+    "meaning": "例子、慣例、前例",
+    "partOfSpeech": "名詞",
+    "example": "具体的な例を挙げて説明する。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "裸",
+    "reading": "はだか",
+    "meaning": "裸體、赤裸",
+    "partOfSpeech": "名詞",
+    "example": "裸足で砂浜を走る。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "翼",
+    "reading": "つばさ",
+    "meaning": "翼、機翼、翅膀",
+    "partOfSpeech": "名詞",
+    "example": "鳥が翼を広げて飛ぶ。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "雄",
+    "reading": "おす",
+    "meaning": "雄性、公的動物",
+    "partOfSpeech": "名詞",
+    "example": "これはライオンの雄だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "矢",
+    "reading": "や",
+    "meaning": "箭",
+    "partOfSpeech": "名詞",
+    "example": "矢のような速さで走る。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "網",
+    "reading": "あみ",
+    "meaning": "網、鐵絲網、法網",
+    "partOfSpeech": "名詞",
+    "example": "漁師が網を投げる。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "婿",
+    "reading": "むこ",
+    "meaning": "女婿、新郎",
+    "partOfSpeech": "名詞",
+    "example": "娘に婿を取る。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "脈",
+    "reading": "みゃく",
+    "meaning": "脈搏、脈絡、希望",
+    "partOfSpeech": "名詞",
+    "example": "まだ脈がある、諦めるな。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "末",
+    "reading": "まつ",
+    "meaning": "末、末尾、末端",
+    "partOfSpeech": "名詞",
+    "example": "今月末までに提出してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "末",
+    "reading": "すえ",
+    "meaning": "末尾、終點、將來、結果",
+    "partOfSpeech": "名詞",
+    "example": "苦労した末に成功を掴む。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "膜",
+    "reading": "まく",
+    "meaning": "膜、薄皮",
+    "partOfSpeech": "名詞",
+    "example": "牛乳の表面に膜が張る。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "麻",
+    "reading": "あさ",
+    "meaning": "麻、麻織品",
+    "partOfSpeech": "名詞",
+    "example": "麻のシャツは涼しい。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "峰",
+    "reading": "みね",
+    "meaning": "峰、山頂、刀背",
+    "partOfSpeech": "名詞",
+    "example": "遠くに連なる峰が見える。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "〜並",
+    "reading": "なみ",
+    "meaning": "並列、普通程度、與……同等",
+    "partOfSpeech": "接尾語",
+    "example": "プロ並みの腕前を持っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "柄",
+    "reading": "がら",
+    "meaning": "花紋、身分、人品、體格",
+    "partOfSpeech": "名詞",
+    "example": "派手な柄の服を着る。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "柄",
+    "reading": "え",
+    "meaning": "柄、把手",
+    "partOfSpeech": "名詞",
+    "example": "包丁の柄が取れてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "幅",
+    "reading": "はば",
+    "meaning": "寬度、範圍、勢力、伸縮餘地",
+    "partOfSpeech": "名詞",
+    "example": "道幅を広げる工事をする。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "浜",
+    "reading": "はま",
+    "meaning": "海濱、湖濱",
+    "partOfSpeech": "名詞",
+    "example": "浜で貝殻を拾う。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "苗",
+    "reading": "なえ",
+    "meaning": "苗、幼苗、秧苗",
+    "partOfSpeech": "名詞",
+    "example": "花の苗を植える。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "票",
+    "reading": "ひょう",
+    "meaning": "票、選票",
+    "partOfSpeech": "名詞",
+    "example": "得票数を数える。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "尾",
+    "reading": "お",
+    "meaning": "尾巴、山麓",
+    "partOfSpeech": "名詞",
+    "example": "犬が尾を振っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "眉",
+    "reading": "まゆ",
+    "meaning": "眉毛",
+    "partOfSpeech": "名詞",
+    "example": "眉をひそめる。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "扉",
+    "reading": "とびら",
+    "meaning": "門、門扉、書籍的扉頁",
+    "partOfSpeech": "名詞",
+    "example": "新しい世界の扉を開く。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "判",
+    "reading": "はん",
+    "meaning": "印章、判定、開本規格",
+    "partOfSpeech": "名詞",
+    "example": "書類に判を押す。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "班",
+    "reading": "はん",
+    "meaning": "班、組",
+    "partOfSpeech": "名詞",
+    "example": "三つの班に分かれて作業する。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "罰",
+    "reading": "ばつ",
+    "meaning": "懲罰、處罰",
+    "partOfSpeech": "名詞",
+    "example": "規則を破った罰を受ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "腸",
+    "reading": "ちょう",
+    "meaning": "腸、腸子",
+    "partOfSpeech": "名詞",
+    "example": "腸の調子を整える。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "頂",
+    "reading": "いただき",
+    "meaning": "頂、山巔、頂端",
+    "partOfSpeech": "名詞",
+    "example": "山の頂を目指して登る。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "的",
+    "reading": "まと",
+    "meaning": "標靶、目標、要點",
+    "partOfSpeech": "名詞",
+    "example": "批判の的になる。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "棟",
+    "reading": "とう",
+    "meaning": "棟、屋脊、建築物的量詞",
+    "partOfSpeech": "名詞、量詞",
+    "example": "マンションが三棟建っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "筒",
+    "reading": "つつ",
+    "meaning": "筒、管狀物",
+    "partOfSpeech": "名詞",
+    "example": "竹の筒に水を入れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "頭",
+    "reading": "かしら",
+    "meaning": "頭、首領、最前端",
+    "partOfSpeech": "名詞",
+    "example": "彼が村の頭だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "尿",
+    "reading": "にょう",
+    "meaning": "尿、小便",
+    "partOfSpeech": "名詞",
+    "example": "尿検査を受ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "念",
+    "reading": "ねん",
+    "meaning": "念頭、注意、願望、極短時間",
+    "partOfSpeech": "名詞",
+    "example": "念のため確認しておく。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "脳",
+    "reading": "のう",
+    "meaning": "腦、智力、腦力",
+    "partOfSpeech": "名詞",
+    "example": "脳の働きを研究する。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "肺",
+    "reading": "はい",
+    "meaning": "肺",
+    "partOfSpeech": "名詞",
+    "example": "肺に空気を取り込む。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "禅",
+    "reading": "ぜん",
+    "meaning": "禪、禪宗、打坐",
+    "partOfSpeech": "名詞",
+    "example": "禅の考え方を学ぶ。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "巣",
+    "reading": "す",
+    "meaning": "巢、穴、窩、家庭",
+    "partOfSpeech": "名詞",
+    "example": "鳥が木に巣を作る。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "霜",
+    "reading": "しも",
+    "meaning": "霜、白髮",
+    "partOfSpeech": "名詞",
+    "example": "今朝は霜が降りている。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "蔵",
+    "reading": "くら",
+    "meaning": "倉庫、庫房",
+    "partOfSpeech": "名詞",
+    "example": "蔵に古い家具をしまう。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "対",
+    "reading": "つい",
+    "meaning": "對、成對的一組",
+    "partOfSpeech": "名詞、量詞",
+    "example": "この花瓶は一対になっている。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "端",
+    "reading": "はし",
+    "meaning": "邊緣、端、開頭、一部分",
+    "partOfSpeech": "名詞",
+    "example": "橋の端を歩く。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "恥",
+    "reading": "はじ",
+    "meaning": "恥辱、羞恥",
+    "partOfSpeech": "名詞",
+    "example": "恥をかきたくない。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "値",
+    "reading": "あたい",
+    "meaning": "價值、價格、數值",
+    "partOfSpeech": "名詞",
+    "example": "その説には検討する値がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "宙",
+    "reading": "ちゅう",
+    "meaning": "空中、半空",
+    "partOfSpeech": "名詞",
+    "example": "ボールが宙に浮いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "潮",
+    "reading": "しお",
+    "meaning": "潮汐、海水、時機",
+    "partOfSpeech": "名詞",
+    "example": "潮が引くのを待つ。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "節",
+    "reading": "ふし",
+    "meaning": "節、關節、曲調、要點",
+    "partOfSpeech": "名詞",
+    "example": "思い当たる節がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "跡",
+    "reading": "あと",
+    "meaning": "痕跡、行蹤、繼承者",
+    "partOfSpeech": "名詞",
+    "example": "足跡が残っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "丈",
+    "reading": "たけ",
+    "meaning": "身長、長度、尺寸、全部",
+    "partOfSpeech": "名詞",
+    "example": "ズボンの丈を詰める。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "証",
+    "reading": "あかし",
+    "meaning": "證據、證明",
+    "partOfSpeech": "名詞",
+    "example": "愛の証として指輪を贈る。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "沼",
+    "reading": "ぬま",
+    "meaning": "沼澤、池塘、深陷其中的狀態",
+    "partOfSpeech": "名詞",
+    "example": "深い沼にはまる。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "盾",
+    "reading": "たて",
+    "meaning": "盾牌、後盾、擋箭牌",
+    "partOfSpeech": "名詞",
+    "example": "盾となって家族を守る。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "刃",
+    "reading": "は",
+    "meaning": "刃、刀口",
+    "partOfSpeech": "名詞",
+    "example": "包丁の刃を研ぐ。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "術",
+    "reading": "すべ",
+    "meaning": "方法、手段、策略",
+    "partOfSpeech": "名詞",
+    "example": "なす術がない。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "獣",
+    "reading": "けもの",
+    "meaning": "野獸、家畜",
+    "partOfSpeech": "名詞",
+    "example": "獣の道を進む。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "趣",
+    "reading": "おもむき",
+    "meaning": "情趣、格調、意旨、樣子",
+    "partOfSpeech": "名詞",
+    "example": "趣のある古い庭園。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "策",
+    "reading": "さく",
+    "meaning": "策略、方案、方法",
+    "partOfSpeech": "名詞",
+    "example": "万全の策を講じる。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "柵",
+    "reading": "さく",
+    "meaning": "柵欄",
+    "partOfSpeech": "名詞",
+    "example": "庭の周りに柵を作る。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "札",
+    "reading": "さつ",
+    "meaning": "紙幣、票券",
+    "partOfSpeech": "名詞",
+    "example": "千円札を財布に入れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "札",
+    "reading": "ふだ",
+    "meaning": "牌子、告示牌、護身符、號碼牌",
+    "partOfSpeech": "名詞",
+    "example": "玄関に札を出す。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "雌",
+    "reading": "めす",
+    "meaning": "雌性、母的動物",
+    "partOfSpeech": "名詞",
+    "example": "雌の鳥が卵を温めている。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "志",
+    "reading": "こころざし",
+    "meaning": "志向、志願、志氣、盛情",
+    "partOfSpeech": "名詞",
+    "example": "高い志を抱く。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "主",
+    "reading": "ぬし",
+    "meaning": "主人、所有者、長居者、古語中的你",
+    "partOfSpeech": "名詞",
+    "example": "この山の主に会う。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "軸",
+    "reading": "じく",
+    "meaning": "軸、核心、筆桿、掛軸",
+    "partOfSpeech": "名詞",
+    "example": "話の軸がぶれないようにする。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "侍",
+    "reading": "さむらい",
+    "meaning": "武士",
+    "partOfSpeech": "名詞",
+    "example": "侍の精神を学ぶ。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "紫",
+    "reading": "むらさき",
+    "meaning": "紫色",
+    "partOfSpeech": "名詞",
+    "example": "紫のドレスを着る。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "種",
+    "reading": "しゅ",
+    "meaning": "種類、種族",
+    "partOfSpeech": "名詞",
+    "example": "この植物は珍しい種だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "種",
+    "reading": "たね",
+    "meaning": "種子、品種、原因、訣竅、食材、話題",
+    "partOfSpeech": "名詞",
+    "example": "悩みの種が増える。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "股",
+    "reading": "また",
+    "meaning": "胯下、大腿根部",
+    "partOfSpeech": "名詞",
+    "example": "股の間をくぐり抜ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "源",
+    "reading": "みなもと",
+    "meaning": "水源、發源地、起源",
+    "partOfSpeech": "名詞",
+    "example": "パワーの源は食事だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "垢",
+    "reading": "あか",
+    "meaning": "污垢、水垢、網路帳號",
+    "partOfSpeech": "名詞",
+    "example": "垢を落としてさっぱりする。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "溝",
+    "reading": "みぞ",
+    "meaning": "溝、水溝、隔閡",
+    "partOfSpeech": "名詞",
+    "example": "二人の間に溝ができる。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "公",
+    "reading": "おおやけ",
+    "meaning": "公共、政府、公開",
+    "partOfSpeech": "名詞",
+    "example": "公の場で発言する。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "頃",
+    "reading": "ころ",
+    "meaning": "時候、時期、時刻",
+    "partOfSpeech": "名詞、副詞",
+    "example": "子供の頃を思い出す。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "根",
+    "reading": "ね",
+    "meaning": "根、根本、本性、根源",
+    "partOfSpeech": "名詞",
+    "example": "悪の根を絶つ。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "綱",
+    "reading": "つな",
+    "meaning": "粗繩、命脈、依靠",
+    "partOfSpeech": "名詞",
+    "example": "綱渡りのような生活。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "魂",
+    "reading": "たましい",
+    "meaning": "魂、靈魂、精神",
+    "partOfSpeech": "名詞",
+    "example": "魂を込めて歌う。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "際",
+    "reading": "きわ",
+    "meaning": "邊緣、時候、旁邊",
+    "partOfSpeech": "名詞、副詞",
+    "example": "崖の際まで行く。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "逆",
+    "reading": "ぎゃく",
+    "meaning": "相反、倒、顛倒",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "予想とは逆の結果になった。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "足",
+    "reading": "あし",
+    "meaning": "腿、腳",
+    "partOfSpeech": "名詞",
+    "example": "足を痛めて歩けない。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "筋",
+    "reading": "すじ",
+    "meaning": "肌肉、血管、線條、條理、道理、血統、細長物的量詞",
+    "partOfSpeech": "名詞",
+    "example": "筋の通った説明をする。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "弓",
+    "reading": "ゆみ",
+    "meaning": "弓",
+    "partOfSpeech": "名詞",
+    "example": "弓を射る。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "丘",
+    "reading": "おか",
+    "meaning": "丘陵、山崗",
+    "partOfSpeech": "名詞",
+    "example": "丘の上から町を見下ろす。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "恵",
+    "reading": "めぐみ",
+    "meaning": "恩惠、恩賜",
+    "partOfSpeech": "名詞",
+    "example": "雨は天からの恵みだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "茎",
+    "reading": "くき",
+    "meaning": "莖、桿",
+    "partOfSpeech": "名詞",
+    "example": "花の茎を折らないように。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "芸",
+    "reading": "げい",
+    "meaning": "藝、技藝、演技、把戲",
+    "partOfSpeech": "名詞",
+    "example": "芸は身を助ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "穴",
+    "reading": "あな",
+    "meaning": "洞、孔、漏洞、虧空、缺點",
+    "partOfSpeech": "名詞",
+    "example": "靴下に穴が開いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "件",
+    "reading": "けん",
+    "meaning": "件、事情、事件、數量單位",
+    "partOfSpeech": "名詞、量詞",
+    "example": "この件について相談したい。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "技",
+    "reading": "わざ",
+    "meaning": "技、技能、招數",
+    "partOfSpeech": "名詞",
+    "example": "プロの技を目の当たりにする。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "器",
+    "reading": "うつわ",
+    "meaning": "容器、器皿、器具、才幹",
+    "partOfSpeech": "名詞",
+    "example": "リーダーの器ではない。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "癌",
+    "reading": "がん",
+    "meaning": "癌、癌症、禍根",
+    "partOfSpeech": "名詞",
+    "example": "癌の早期発見が重要だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "管",
+    "reading": "くだ",
+    "meaning": "管、管子",
+    "partOfSpeech": "名詞",
+    "example": "管を通して水を送る。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "幹",
+    "reading": "みき",
+    "meaning": "樹幹、骨幹",
+    "partOfSpeech": "名詞",
+    "example": "太い幹の木の下で休む。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "株",
+    "reading": "かぶ",
+    "meaning": "股票、股份、根株、行情、身分地位",
+    "partOfSpeech": "名詞",
+    "example": "株価が急落する。",
+    "isFavorite": false
+  },
+  {
+    "id": 100,
+    "word": "角",
+    "reading": "つの",
+    "meaning": "動物的角",
+    "partOfSpeech": "名詞",
+    "example": "牛の角が折れる。",
+    "isFavorite": false
+  },
+  {
+    "id": 101,
+    "word": "角",
+    "reading": "かど",
+    "meaning": "角落、拐角、稜角、生硬",
+    "partOfSpeech": "名詞",
+    "example": "角を右に曲がる。",
+    "isFavorite": false
+  },
+  {
+    "id": 102,
+    "word": "核",
+    "reading": "かく",
+    "meaning": "核、核心、果核、地核",
+    "partOfSpeech": "名詞",
+    "example": "グループの核となる人物。",
+    "isFavorite": false
+  },
+  {
+    "id": 103,
+    "word": "芽",
+    "reading": "め",
+    "meaning": "芽、萌芽、發展的開端",
+    "partOfSpeech": "名詞",
+    "example": "ようやく芽が出てきた。",
+    "isFavorite": false
+  },
+  {
+    "id": 104,
+    "word": "沖",
+    "reading": "おき",
+    "meaning": "海上、洋面",
+    "partOfSpeech": "名詞",
+    "example": "沖を船が行き交う。",
+    "isFavorite": false
+  }
+]

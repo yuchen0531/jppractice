@@ -1,0 +1,911 @@
+[
+  {
+    "id": 1,
+    "word": "無礼",
+    "reading": "ぶれい",
+    "meaning": "沒禮貌、不恭敬、失禮",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "目上の人に対して無礼な態度をとってはいけない。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "無難",
+    "reading": "ぶなん",
+    "meaning": "穩妥、平安無事、無可非議",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "初心者はこのコースを選ぶのが無難だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "密接",
+    "reading": "みっせつ",
+    "meaning": "密接、緊連、關係密切",
+    "partOfSpeech": "名詞、形容動詞、自動詞",
+    "example": "両国の経済は密接に関係している。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "豊富",
+    "reading": "ほうふ",
+    "meaning": "充足、豐富",
+    "partOfSpeech": "形容動詞",
+    "example": "彼は実務経験が豊富で、頼りになる存在だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "豊か",
+    "reading": "ゆたか",
+    "meaning": "富裕、充裕、豐富、豐滿",
+    "partOfSpeech": "形容動詞",
+    "example": "この国は天然資源が豊かなことで知られている。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "平気",
+    "reading": "へいき",
+    "meaning": "不在乎、冷靜、無動於衷",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼はどんなに大変な仕事でも平気な顔でこなす。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "複雜、錯綜繁雜",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "人間關係が複雑すぎて、解決には時間がかかる。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "無能",
+    "reading": "むのう",
+    "meaning": "無能、沒有才能",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "自分を無能だと決めつけてはいけない。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "未熟",
+    "reading": "みじゅく",
+    "meaning": "不成熟、不熟練、發育不全",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "まだまだ未熟ですが、精一杯頑張ります。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "不当",
+    "reading": "ふとう",
+    "meaning": "不當、不合理、不正當",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "不当な差別に対して強く抗議する。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "否定的",
+    "reading": "ひていてき",
+    "meaning": "否定的、消極的",
+    "partOfSpeech": "形容動詞",
+    "example": "何事も否定的に考えるのはよくない。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "派手",
+    "reading": "はで",
+    "meaning": "花哨、鮮豔、華麗、誇張",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼女はいつも派手な服を着ている。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "独特",
+    "reading": "どくとく",
+    "meaning": "獨特、特有",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "この地方には独特な風習が残っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "伝統的",
+    "reading": "でんとうてき",
+    "meaning": "傳統的",
+    "partOfSpeech": "形容動詞",
+    "example": "日本の伝統的な工芸品を海外に紹介する。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "典型的",
+    "reading": "てんけいてき",
+    "meaning": "典型的",
+    "partOfSpeech": "形容動詞",
+    "example": "彼は典型的な真面目な日本人だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "適当",
+    "reading": "てきとう",
+    "meaning": "適當、合適、隨便、馬虎",
+    "partOfSpeech": "名詞、形容動詞、自動詞",
+    "example": "適当な理由をつけて欠席するのはやめなさい。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "適切",
+    "reading": "てきせつ",
+    "meaning": "恰當、妥當、確切",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "状況に応じて適切な判断を下すことが大切だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "直感的",
+    "reading": "ちょっかんてき",
+    "meaning": "直覺的",
+    "partOfSpeech": "形容動詞",
+    "example": "彼女は直感的に危険を察知した。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "長期的",
+    "reading": "ちょうきてき",
+    "meaning": "長期的",
+    "partOfSpeech": "形容動詞",
+    "example": "長期的な視点に立って計画を立てる。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "抽象的",
+    "reading": "ちゅうしょうてき",
+    "meaning": "抽象的",
+    "partOfSpeech": "形容動詞",
+    "example": "彼の説明は抽象的で分かりにくい。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "短期的",
+    "reading": "たんきてき",
+    "meaning": "短期的",
+    "partOfSpeech": "形容動詞",
+    "example": "短期間で成果を出すのは難しい。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "盛大",
+    "reading": "せいだい",
+    "meaning": "盛大、隆重、宏大",
+    "partOfSpeech": "形容動詞",
+    "example": "新郎新婦を祝う盛大な披露宴が行われた。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "積極的",
+    "reading": "せっきょくてき",
+    "meaning": "積極的、主動的",
+    "partOfSpeech": "形容動詞",
+    "example": "ボランティア活動に積極的に参加する。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "対照的",
+    "reading": "たいしょうてき",
+    "meaning": "對比鮮明的、正相反的",
+    "partOfSpeech": "形容動詞",
+    "example": "兄弟でも性格が対照的だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "切実",
+    "reading": "せつじつ",
+    "meaning": "切實、迫切、殷切",
+    "partOfSpeech": "形容動詞",
+    "example": "深刻な水不足は切実な問題だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "大幅",
+    "reading": "おおはば",
+    "meaning": "大幅度、廣泛",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "予算を大幅に削減することになった。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "単純",
+    "reading": "たんじゅん",
+    "meaning": "單純、簡單",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "単純なミスで試合に負けてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "段階的",
+    "reading": "だんかいてき",
+    "meaning": "階段性的、逐步的",
+    "partOfSpeech": "形容動詞",
+    "example": "規制を段階的に解除していく。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "地味",
+    "reading": "じみ",
+    "meaning": "樸素、樸實、不起眼、低調",
+    "partOfSpeech": "形容動詞",
+    "example": "彼女はいつも地味な服装をしている。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "忠実",
+    "reading": "ちゅうじつ",
+    "meaning": "忠實、忠誠、如實",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "原作に忠実な映画化を望むファンが多い。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "国際的",
+    "reading": "こくさいてき",
+    "meaning": "國際性的",
+    "partOfSpeech": "形容動詞",
+    "example": "国際的な舞台で活躍する選手を目指す。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "自動的",
+    "reading": "じどうてき",
+    "meaning": "自動的、自發的",
+    "partOfSpeech": "形容動詞",
+    "example": "時間が来れば自動的に電気が消える。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "手軽",
+    "reading": "てがる",
+    "meaning": "簡單、簡便、輕易",
+    "partOfSpeech": "形容動詞",
+    "example": "手軽に作れる料理のレシピを探す。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "重要",
+    "reading": "じゅうよう",
+    "meaning": "重要、要緊",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "重要な書類を金庫に保管する。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "順調",
+    "reading": "じゅんちょう",
+    "meaning": "順利、良好、理想",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "工事は予定通り順調に進んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "上品",
+    "reading": "じょうひん",
+    "meaning": "優雅、高尚、上品",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼女は言葉遣いがとても上品だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "慎重",
+    "reading": "しんちょう",
+    "meaning": "慎重、謹慎、穩重",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "大きな決斷をする時は慎重にならなければならない。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "新た",
+    "reading": "あらた",
+    "meaning": "新、重新、新鮮",
+    "partOfSpeech": "形容動詞",
+    "example": "年が明け、新たな気持ちで仕事に取り組む。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "真剣",
+    "reading": "しんけん",
+    "meaning": "認真、一絲不苟、嚴肅",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "将来のことを真剣に考える必要がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "身近",
+    "reading": "みぢか",
+    "meaning": "切身、親近的、身邊",
+    "partOfSpeech": "形容動詞",
+    "example": "環境問題をもっと身近なこととして捉える。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "広大",
+    "reading": "こうだい",
+    "meaning": "廣大、廣闊、宏大",
+    "partOfSpeech": "形容動詞",
+    "example": "広大な敷地に新しい工場が建設された。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "賢明",
+    "reading": "けんめい",
+    "meaning": "賢明、明智、高明",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "今は無理をせず休むのが賢明な判断だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "健全",
+    "reading": "けんぜん",
+    "meaning": "健全、健康、穩妥可靠",
+    "partOfSpeech": "形容動詞",
+    "example": "子供たちの健全な育成を願っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "結構",
+    "reading": "けっこう",
+    "meaning": "相當、很好、足夠、不用了",
+    "partOfSpeech": "形容動詞、副詞",
+    "example": "お味はいかがですか。はい、大変結構です。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "愚か",
+    "reading": "おろか",
+    "meaning": "愚蠢、糊塗、傻",
+    "partOfSpeech": "形容動詞",
+    "example": "同じ間違いを繰り返すのは愚かなことだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "気軽",
+    "reading": "きがる",
+    "meaning": "輕鬆愉快、舒暢、隨便",
+    "partOfSpeech": "形容動詞",
+    "example": "何かあれば気軽に相談してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "気楽",
+    "reading": "きらく",
+    "meaning": "舒暢、舒適、安逸、輕鬆",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "退職してからは気楽な毎日を過ごしている。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "頑丈",
+    "reading": "がんじょう",
+    "meaning": "堅固、結實、健壯",
+    "partOfSpeech": "形容動詞",
+    "example": "この棚は頑丈にできているので重いものを載せても大丈夫だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "完璧",
+    "reading": "かんぺき",
+    "meaning": "完美、十全十美、無暇",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼女の演技は完璧で、観客を魅了した。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "活発",
+    "reading": "かっぱつ",
+    "meaning": "活潑、活躍",
+    "partOfSpeech": "形容動詞",
+    "example": "授業中、学生たちの活発な議論が行われた。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "確か",
+    "reading": "たしか",
+    "meaning": "確實、正確、可靠、大概",
+    "partOfSpeech": "形容動詞、副詞",
+    "example": "彼が言ったことは、確かだと思います。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "確実",
+    "reading": "かくじつ",
+    "meaning": "確實、準確、可靠",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "確実に合格するために、毎日勉強する。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "過激",
+    "reading": "かげき",
+    "meaning": "過激、極端、過火",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "あまりに過激なダイエットは体に毒だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "意外",
+    "reading": "いがい",
+    "meaning": "意外、想不到、出乎意料",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "彼が犯人だとは、意外な結末だった。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "いい加減",
+    "reading": "いいかげん",
+    "meaning": "適當、馬虎、靠不住、相當",
+    "partOfSpeech": "形容動詞、副詞",
+    "example": "いい加減な返事をして、相手を怒らせてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "騙す",
+    "reading": "だます",
+    "meaning": "哄、騙、欺騙、蒙蔽",
+    "partOfSpeech": "他動詞",
+    "example": "言葉巧みに人を騙してお金を取る。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "楽観的",
+    "reading": "らっかんてき",
+    "meaning": "樂觀的",
+    "partOfSpeech": "形容動詞",
+    "example": "将来に対して楽観的な見通しを持っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "わがまま",
+    "reading": "わがまま",
+    "meaning": "任性、恣意、放肆",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "親を困らせるようなわがままを言ってはいけない。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "励ます",
+    "reading": "はげます",
+    "meaning": "鼓勵、激勵、提高嗓門",
+    "partOfSpeech": "他動詞",
+    "example": "失敗して落ち込んでいる友人を励ます。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "冷やす",
+    "reading": "ひやす",
+    "meaning": "冰鎮、冷卻、使冷靜、使吃驚",
+    "partOfSpeech": "他動詞",
+    "example": "スイカを井戸水で冷やして食べる。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "絡む",
+    "reading": "からむ",
+    "meaning": "纏繞、糾纏、找茬、密切相關",
+    "partOfSpeech": "自動詞",
+    "example": "事件の背後には複雑な事情が絡んでいるようだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "頼る",
+    "reading": "たよる",
+    "meaning": "依賴、仰仗、依靠、投靠",
+    "partOfSpeech": "自他動詞",
+    "example": "困ったときは一人で悩まずに、周りを頼りなさい。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "抑える",
+    "reading": "おさえる",
+    "meaning": "壓、抑制、控制、掌握",
+    "partOfSpeech": "他動詞",
+    "example": "怒りを抑えて、冷静に話し合う。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "与える",
+    "reading": "あたえる",
+    "meaning": "給予、供給、授予、使蒙受",
+    "partOfSpeech": "他動詞",
+    "example": "勇気を与えてくれた言葉を一生忘れない。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "余る",
+    "reading": "あまる",
+    "meaning": "殘餘、多餘、過度",
+    "partOfSpeech": "自動詞",
+    "example": "時間が余ったので、もう一度見直しをする。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "養う",
+    "reading": "やしなう",
+    "meaning": "養育、供養、培養、療養",
+    "partOfSpeech": "他動詞",
+    "example": "彼は大家族を一人で養っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "誘う",
+    "reading": "さそう",
+    "meaning": "約、邀請、引發、引誘",
+    "partOfSpeech": "他動詞",
+    "example": "天気がいいので、友人を散歩に誘った。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "黙る",
+    "reading": "だまる",
+    "meaning": "不說話、沈默、不理會",
+    "partOfSpeech": "自動詞",
+    "example": "真実を知っていながら、彼は黙っていた。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "優れる",
+    "reading": "すぐれる",
+    "meaning": "出色、優越、精湛、良好",
+    "partOfSpeech": "自動詞",
+    "example": "彼女は数学の才能に優れている。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "満たす",
+    "reading": "みたす",
+    "meaning": "充滿、填滿、補充、滿足",
+    "partOfSpeech": "他動詞",
+    "example": "合格の条件をすべて満たす必要がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "埋める",
+    "reading": "うめる",
+    "meaning": "填埋、掩埋、填補、彌補",
+    "partOfSpeech": "他動詞",
+    "example": "道路にできた穴を土で埋める。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "望む",
+    "reading": "のぞむ",
+    "meaning": "眺望、希望、願望、仰望",
+    "partOfSpeech": "他動詞",
+    "example": "世界平和を心から望んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "飽きる",
+    "reading": "あきる",
+    "meaning": "膩、厭煩、厭倦",
+    "partOfSpeech": "自動詞",
+    "example": "同じものばかり食べていると飽きてしまう。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "訪れる",
+    "reading": "おとずれる",
+    "meaning": "訪問、過訪、到來、來臨",
+    "partOfSpeech": "自他動詞",
+    "example": "ようやくこの地方にも春が訪れた。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "崩れる",
+    "reading": "くずれる",
+    "meaning": "崩潰、坍塌、走樣、天氣變壞",
+    "partOfSpeech": "自動詞",
+    "example": "大雨の影響で崖が崩れてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "崩す",
+    "reading": "くずす",
+    "meaning": "破壞、打亂、換成零錢",
+    "partOfSpeech": "他動詞",
+    "example": "千円札を百円玉に崩してもらう。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "補う",
+    "reading": "おぎなう",
+    "meaning": "補上、補充、補償、彌補",
+    "partOfSpeech": "他動詞",
+    "example": "足りない知識を独学で補う。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "歩む",
+    "reading": "あゆむ",
+    "meaning": "行、走、前進、經歷",
+    "partOfSpeech": "自動詞",
+    "example": "二人はこれから共に人生を歩んでいく。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "保つ",
+    "reading": "たもつ",
+    "meaning": "保存、保持、維持、保護",
+    "partOfSpeech": "自他動詞",
+    "example": "健康を保つために、規則正しい生活を送る。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "片付ける",
+    "reading": "かたづける",
+    "meaning": "整理、收拾、解決、處理",
+    "partOfSpeech": "他動詞",
+    "example": "部屋が散らかっているので、きれいに片付ける。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "迫る",
+    "reading": "せまる",
+    "meaning": "催促、逼迫、趕快",
+    "partOfSpeech": "自動詞、五段活用",
+    "example": "納期が目前に迫り、必死に作業をしている。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "曇る",
+    "reading": "くもる",
+    "meaning": "陰天、變模糊、暗淡",
+    "partOfSpeech": "自動詞",
+    "example": "眼鏡が湯気で曇ってしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "納まる",
+    "reading": "おさまる",
+    "meaning": "收納、解決、滿意、繳納",
+    "partOfSpeech": "自動詞",
+    "example": "税金が期日通りに国庫に納まった。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "納める",
+    "reading": "おさめる",
+    "meaning": "繳納、收納、結束、供應",
+    "partOfSpeech": "他動詞",
+    "example": "注文された商品を期日までに納める。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "配る",
+    "reading": "くばる",
+    "meaning": "分配、分發、多方注意、配置",
+    "partOfSpeech": "他動詞",
+    "example": "駅前でチラシを配っている人がいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "抜ける",
+    "reading": "ぬける",
+    "meaning": "脫落、漏掉、消失、溜走",
+    "partOfSpeech": "自動詞",
+    "example": "タイヤの空気が抜けてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "避ける",
+    "reading": "よける",
+    "meaning": "避、躲避、防備、推開",
+    "partOfSpeech": "他動詞",
+    "example": "水たまりをよけて歩く。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "避ける",
+    "reading": "さける",
+    "meaning": "避開、躲避、逃避",
+    "partOfSpeech": "他動詞",
+    "example": "ラッシュアワーを避けて通勤する。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "負かす",
+    "reading": "まかす",
+    "meaning": "打敗、擊敗、戰勝、駁倒",
+    "partOfSpeech": "他動詞",
+    "example": "彼は囲碁でプロの棋士を負かした。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "破る",
+    "reading": "やぶる",
+    "meaning": "撕破、弄破、打破、違反、擊敗",
+    "partOfSpeech": "他動詞",
+    "example": "約束を破るような人とは付き合えない。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "片付く",
+    "reading": "かたづく",
+    "meaning": "收拾整齊、得到解決、做完、出嫁",
+    "partOfSpeech": "自動詞",
+    "example": "溜まっていた仕事がようやく片付いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "逃す",
+    "reading": "のがす",
+    "meaning": "放過、錯過、漏掉",
+    "partOfSpeech": "他動詞",
+    "example": "せっかくのチャンスを逃してしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "踏まえる",
+    "reading": "ふまえる",
+    "meaning": "踏、踩、立足於、根據",
+    "partOfSpeech": "他動詞",
+    "example": "前回の失敗を踏まえて、対策を練る。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "努める",
+    "reading": "つとめる",
+    "meaning": "盡力、效力、服務",
+    "partOfSpeech": "自他動詞",
+    "example": "問題の解決に全力を努める。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "転がる",
+    "reading": "ころがる",
+    "meaning": "滾轉、倒下、躺下、放置",
+    "partOfSpeech": "自動詞",
+    "example": "ボールが坂道を転がっていった。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "諦める",
+    "reading": "あきらめる",
+    "meaning": "斷念、死心、罷手、看開",
+    "partOfSpeech": "他動詞",
+    "example": "最後まで諦めずに走り抜く。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "締める",
+    "reading": "しめる",
+    "meaning": "勒緊、系緊、繃緊、合計、結算",
+    "partOfSpeech": "他動詞",
+    "example": "ネクタイを締めて面接に臨む。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "通じる",
+    "reading": "つうじる",
+    "meaning": "暢通、通曉、領會、使理解",
+    "partOfSpeech": "自他動詞",
+    "example": "冗談が通じない相手とは話しにくい。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "痛める",
+    "reading": "いためる",
+    "meaning": "使肉體疼痛、損傷、使心靈痛苦",
+    "partOfSpeech": "他動詞",
+    "example": "激しい運動で足を痛めてしまった。",
+    "isFavorite": false
+  },
+  {
+    "id": 100,
+    "word": "倒す",
+    "reading": "たおす",
+    "meaning": "弄倒、放倒、推翻、打倒、打敗",
+    "partOfSpeech": "他動詞",
+    "example": "強豪チームを倒して、優勝を果たした。",
+    "isFavorite": false
+  },
+  {
+    "id": 101,
+    "word": "調える",
+    "reading": "ととのえる",
+    "meaning": "整理、整頓、備齊、談妥",
+    "partOfSpeech": "他動詞",
+    "example": "商談の条件を調えるために準備をする。",
+    "isFavorite": false
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "word": "配給",
+    "reading": "はいきゅう",
+    "meaning": "配給、配售、定量供應",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "食料の配給を受けるために列に並ぶ。",
+    "isFavorite": false
+  },
+  {
+    "id": 2,
+    "word": "発熱",
+    "reading": "はつねつ",
+    "meaning": "發熱、發燒",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "昨夜から子供が発熱している。",
+    "isFavorite": false
+  },
+  {
+    "id": 3,
+    "word": "敗戦",
+    "reading": "はいせん",
+    "meaning": "敗戰、失敗",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "敗戦のショックから立ち直る。",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "word": "配信",
+    "reading": "はいしん",
+    "meaning": "傳送、發佈訊息、串流",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "最新のニュースをネットで配信する。",
+    "isFavorite": false
+  },
+  {
+    "id": 5,
+    "word": "爆弾",
+    "reading": "ばくだん",
+    "meaning": "炸彈、爆炸物、（比喻）爆炸性發言",
+    "partOfSpeech": "名詞",
+    "example": "彼は記者会見で爆弾発言をした。",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "word": "爆撃",
+    "reading": "ばくげき",
+    "meaning": "轟炸",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "敵の基地を激しく爆撃した。",
+    "isFavorite": false
+  },
+  {
+    "id": 7,
+    "word": "破壊",
+    "reading": "はかい",
+    "meaning": "破壞",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "環境破壊を食い止める必要がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 8,
+    "word": "農民",
+    "reading": "のうみん",
+    "meaning": "農民",
+    "partOfSpeech": "名詞",
+    "example": "多くの農民が収穫を祝っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 9,
+    "word": "背景",
+    "reading": "はいけい",
+    "meaning": "背景、後盾、幕後形勢",
+    "partOfSpeech": "名詞",
+    "example": "事件の背景を詳しく調査する。",
+    "isFavorite": false
+  },
+  {
+    "id": 10,
+    "word": "納得",
+    "reading": "なっとく",
+    "meaning": "理解、領會、信服、認可",
+    "partOfSpeech": "名詞",
+    "example": "彼の説明を聞いて、ようやく納得した。",
+    "isFavorite": false
+  },
+  {
+    "id": 11,
+    "word": "年配",
+    "reading": "ねんぱい",
+    "meaning": "年紀、年長、上年紀",
+    "partOfSpeech": "名詞",
+    "example": "年配の方には親切に接すべきだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 12,
+    "word": "入手",
+    "reading": "にゅうしゅ",
+    "meaning": "得到、取得、到手",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "貴重な資料をようやく入手した。",
+    "isFavorite": false
+  },
+  {
+    "id": 13,
+    "word": "日程",
+    "reading": "にってい",
+    "meaning": "日程、每天的計劃安排",
+    "partOfSpeech": "名詞",
+    "example": "旅行の日程を調整する。",
+    "isFavorite": false
+  },
+  {
+    "id": 14,
+    "word": "内側",
+    "reading": "うちがわ",
+    "meaning": "內側、裡面",
+    "partOfSpeech": "名詞",
+    "example": "封筒の内側に名前を書く。",
+    "isFavorite": false
+  },
+  {
+    "id": 15,
+    "word": "内心",
+    "reading": "ないしん",
+    "meaning": "內心、心中",
+    "partOfSpeech": "名詞、副詞",
+    "example": "彼は平気そうに見えたが、内心は驚いていた。",
+    "isFavorite": false
+  },
+  {
+    "id": 16,
+    "word": "特別",
+    "reading": "とくべつ",
+    "meaning": "特別、格外",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "今日は私にとって特別な日だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 17,
+    "word": "特定",
+    "reading": "とくてい",
+    "meaning": "特定、特別指定、查明",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "原因を特定するのに時間がかかった。",
+    "isFavorite": false
+  },
+  {
+    "id": 18,
+    "word": "認識",
+    "reading": "にんしき",
+    "meaning": "認識、理解",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "現状を正しく認識することが重要だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 19,
+    "word": "妊娠",
+    "reading": "にんしん",
+    "meaning": "妊娠、懷孕",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "彼女は妊娠三ヶ月です。",
+    "isFavorite": false
+  },
+  {
+    "id": 20,
+    "word": "導入",
+    "reading": "どうにゅう",
+    "meaning": "導入、引進、輸入",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "最新の設備を工場に導入する。",
+    "isFavorite": false
+  },
+  {
+    "id": 21,
+    "word": "到達",
+    "reading": "とうたつ",
+    "meaning": "到達、達到",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "ついに目標の金額に到達した。",
+    "isFavorite": false
+  },
+  {
+    "id": 22,
+    "word": "同居",
+    "reading": "どうきょ",
+    "meaning": "同居、同住",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "結婚してからも両親と同居している。",
+    "isFavorite": false
+  },
+  {
+    "id": 23,
+    "word": "統治",
+    "reading": "とうち",
+    "meaning": "統治",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "国王がその地域を長く統治した。",
+    "isFavorite": false
+  },
+  {
+    "id": 24,
+    "word": "統合",
+    "reading": "とうごう",
+    "meaning": "統一、綜合、統合",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "二つの会社が統合して新しい企業になった。",
+    "isFavorite": false
+  },
+  {
+    "id": 25,
+    "word": "投資",
+    "reading": "とうし",
+    "meaning": "投資",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "将来のために株式に投資する。",
+    "isFavorite": false
+  },
+  {
+    "id": 26,
+    "word": "途上",
+    "reading": "とじょう",
+    "meaning": "途上、路上、進行中",
+    "partOfSpeech": "名詞、副詞",
+    "example": "学校へ行く途上で旧友に会った。",
+    "isFavorite": false
+  },
+  {
+    "id": 27,
+    "word": "伝達",
+    "reading": "でんたつ",
+    "meaning": "傳達、轉達",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "重要なメッセージを速やかに伝達する。",
+    "isFavorite": false
+  },
+  {
+    "id": 28,
+    "word": "同士",
+    "reading": "どし",
+    "meaning": "夥伴、同志、...之間",
+    "partOfSpeech": "名詞、接尾辭",
+    "example": "好きなもの同士、話が盛り上がった。",
+    "isFavorite": false
+  },
+  {
+    "id": 29,
+    "word": "同情",
+    "reading": "どうじょう",
+    "meaning": "同情、體諒",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "不幸な境遇の人に同情する。",
+    "isFavorite": false
+  },
+  {
+    "id": 30,
+    "word": "同様",
+    "reading": "どうよう",
+    "meaning": "同樣",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "前回の試験と同様、今回も難しかった。",
+    "isFavorite": false
+  },
+  {
+    "id": 31,
+    "word": "典型",
+    "reading": "てんけい",
+    "meaning": "典型",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "これは日本の典型的な家庭の例です。",
+    "isFavorite": false
+  },
+  {
+    "id": 32,
+    "word": "展望",
+    "reading": "てんぼう",
+    "meaning": "展望（未來預測、前景）",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "今後の経済の展望を語る。",
+    "isFavorite": false
+  },
+  {
+    "id": 33,
+    "word": "展示",
+    "reading": "てんじ",
+    "meaning": "展示、展出、陳列",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "博物館で有名な絵画が展示されている。",
+    "isFavorite": false
+  },
+  {
+    "id": 34,
+    "word": "転送",
+    "reading": "てんそう",
+    "meaning": "轉送、轉寄",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "届いたメールを上司に転送する。",
+    "isFavorite": false
+  },
+  {
+    "id": 35,
+    "word": "提示",
+    "reading": "ていじ",
+    "meaning": "出示、提出",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "入口で身分証明書を提示してください。",
+    "isFavorite": false
+  },
+  {
+    "id": 36,
+    "word": "提出",
+    "reading": "ていしゅつ",
+    "meaning": "提交、提出",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "レポートの提出期限は明日だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 37,
+    "word": "展開",
+    "reading": "てんかい",
+    "meaning": "開展、展開、發展",
+    "partOfSpeech": "名詞",
+    "example": "物語が意外な方向に展開していく。",
+    "isFavorite": false
+  },
+  {
+    "id": 38,
+    "word": "店舗",
+    "reading": "てんぽ",
+    "meaning": "店舖、商店",
+    "partOfSpeech": "名詞",
+    "example": "都内に新しい店舗を構える。",
+    "isFavorite": false
+  },
+  {
+    "id": 39,
+    "word": "伝言",
+    "reading": "でんごん",
+    "meaning": "傳話、口信",
+    "partOfSpeech": "名詞",
+    "example": "彼に伝言をお願いできますか。",
+    "isFavorite": false
+  },
+  {
+    "id": 40,
+    "word": "伝説",
+    "reading": "でんせつ",
+    "meaning": "傳說",
+    "partOfSpeech": "名詞",
+    "example": "この湖には龍がいるという伝説がある。",
+    "isFavorite": false
+  },
+  {
+    "id": 41,
+    "word": "長所",
+    "reading": "ちょうしょ",
+    "meaning": "長處、優點",
+    "partOfSpeech": "名詞",
+    "example": "自分の短所を理解し、長所を伸ばす。",
+    "isFavorite": false
+  },
+  {
+    "id": 42,
+    "word": "頂上",
+    "reading": "ちょうじょう",
+    "meaning": "山頂、頂峰、頂點",
+    "partOfSpeech": "名詞",
+    "example": "五時間かけて山の頂上に着いた。",
+    "isFavorite": false
+  },
+  {
+    "id": 43,
+    "word": "調和",
+    "reading": "ちょうわ",
+    "meaning": "調和、和諧、協調",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "自然と調和した建築を目指す。",
+    "isFavorite": false
+  },
+  {
+    "id": 44,
+    "word": "賃金",
+    "reading": "ちんぎん",
+    "meaning": "工資、薪金、報酬",
+    "partOfSpeech": "名詞",
+    "example": "最低賃金の引き上げが議論されている。",
+    "isFavorite": false
+  },
+  {
+    "id": 45,
+    "word": "賃貸",
+    "reading": "ちんたい",
+    "meaning": "出租、租賃",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "都内で賃貸マンションを探している。",
+    "isFavorite": false
+  },
+  {
+    "id": 46,
+    "word": "追跡",
+    "reading": "ついせき",
+    "meaning": "追蹤、跟蹤",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "警察が逃走車を追跡している。",
+    "isFavorite": false
+  },
+  {
+    "id": 47,
+    "word": "直感",
+    "reading": "ちょっかん",
+    "meaning": "直覺、直接感覺",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼の直感はいつも当たっている。",
+    "isFavorite": false
+  },
+  {
+    "id": 48,
+    "word": "直接",
+    "reading": "ちょくせつ",
+    "meaning": "直接",
+    "partOfSpeech": "名詞、副詞",
+    "example": "本人に直接会って話をしたい。",
+    "isFavorite": false
+  },
+  {
+    "id": 49,
+    "word": "提案",
+    "reading": "ていあん",
+    "meaning": "建議、提案",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "会議で新しい企画を提案する。",
+    "isFavorite": false
+  },
+  {
+    "id": 50,
+    "word": "提供",
+    "reading": "ていきょう",
+    "meaning": "提供、供給、贊助",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "この番組は各社の提供でお送りします。",
+    "isFavorite": false
+  },
+  {
+    "id": 51,
+    "word": "著書",
+    "reading": "ちょしょ",
+    "meaning": "著作、著述",
+    "partOfSpeech": "名詞",
+    "example": "彼の最新の著書を読んだ。",
+    "isFavorite": false
+  },
+  {
+    "id": 52,
+    "word": "短縮",
+    "reading": "たんしゅく",
+    "meaning": "縮短",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "作業時間を短縮するために工夫する。",
+    "isFavorite": false
+  },
+  {
+    "id": 53,
+    "word": "担任",
+    "reading": "たんにん",
+    "meaning": "擔任、擔當",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼女はこのクラスの担任です。",
+    "isFavorite": false
+  },
+  {
+    "id": 54,
+    "word": "貯蓄",
+    "reading": "ちょちく",
+    "meaning": "儲蓄、積蓄",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "老後のために貯蓄を増やす。",
+    "isFavorite": false
+  },
+  {
+    "id": 55,
+    "word": "団結",
+    "reading": "だんけつ",
+    "meaning": "團結",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "チームが団結して優勝を勝ち取った。",
+    "isFavorite": false
+  },
+  {
+    "id": 56,
+    "word": "挑戦",
+    "reading": "ちょうせん",
+    "meaning": "挑戰",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "新しい世界記録に挑戦する。",
+    "isFavorite": false
+  },
+  {
+    "id": 57,
+    "word": "台所",
+    "reading": "だいどころ",
+    "meaning": "廚房（延伸：家庭經濟",
+    "partOfSpeech": "名詞",
+    "example": "母は台所で夕食を作っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 58,
+    "word": "大衆",
+    "reading": "たいしゅう",
+    "meaning": "大眾、群眾",
+    "partOfSpeech": "名詞",
+    "example": "この映画は大衆から高く支持された。",
+    "isFavorite": false
+  },
+  {
+    "id": 59,
+    "word": "単一",
+    "reading": "たんいつ",
+    "meaning": "單一、單一性（不是「簡單」）",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "単一の理由だけで判断するのは危険だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 60,
+    "word": "態度",
+    "reading": "たいど",
+    "meaning": "態度、舉止",
+    "partOfSpeech": "名詞",
+    "example": "彼の態度はとても誠実だった。",
+    "isFavorite": false
+  },
+  {
+    "id": 61,
+    "word": "対応",
+    "reading": "たいおう",
+    "meaning": "對應、對付、回應",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "クレームに迅速に対応する。",
+    "isFavorite": false
+  },
+  {
+    "id": 62,
+    "word": "対象",
+    "reading": "たいしょう",
+    "meaning": "對象、目標",
+    "partOfSpeech": "名詞",
+    "example": "この講座は初心者を対象としている。",
+    "isFavorite": false
+  },
+  {
+    "id": 63,
+    "word": "存続",
+    "reading": "そんぞく",
+    "meaning": "繼續存在、長存",
+    "partOfSpeech": "名詞",
+    "example": "伝統文化の存続が危ぶまれている。",
+    "isFavorite": false
+  },
+  {
+    "id": 64,
+    "word": "待遇",
+    "reading": "たいぐう",
+    "meaning": "對待、服務、待遇、報酬",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "もっと待遇の良い会社に転職したい。",
+    "isFavorite": false
+  },
+  {
+    "id": 65,
+    "word": "総合",
+    "reading": "そうごう",
+    "meaning": "綜合、總合",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "各項目を総合的に評価する。",
+    "isFavorite": false
+  },
+  {
+    "id": 66,
+    "word": "即日",
+    "reading": "そくじつ",
+    "meaning": "即日、當日",
+    "partOfSpeech": "名詞、副詞",
+    "example": "注文した商品は即日発送される。",
+    "isFavorite": false
+  },
+  {
+    "id": 67,
+    "word": "存在",
+    "reading": "そんざい",
+    "meaning": "存在",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "幽霊の存在を信じますか。",
+    "isFavorite": false
+  },
+  {
+    "id": 68,
+    "word": "想像",
+    "reading": "そうぞう",
+    "meaning": "想像",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "十年後の自分を想像してみる。",
+    "isFavorite": false
+  },
+  {
+    "id": 69,
+    "word": "前例",
+    "reading": "ぜんれい",
+    "meaning": "前例、先例",
+    "partOfSpeech": "名詞",
+    "example": "このようなケースには前例がない。",
+    "isFavorite": false
+  },
+  {
+    "id": 70,
+    "word": "専用",
+    "reading": "せんよう",
+    "meaning": "專用",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "ここは女性専用の車両です。",
+    "isFavorite": false
+  },
+  {
+    "id": 71,
+    "word": "正義",
+    "reading": "せいぎ",
+    "meaning": "正義（道德正當性",
+    "partOfSpeech": "名詞",
+    "example": "彼は正義感が強い人だ。",
+    "isFavorite": false
+  },
+  {
+    "id": 72,
+    "word": "政策",
+    "reading": "せいさく",
+    "meaning": "政策",
+    "partOfSpeech": "名詞",
+    "example": "政府が新しい経済政策を打ち出す。",
+    "isFavorite": false
+  },
+  {
+    "id": 73,
+    "word": "正体",
+    "reading": "しょうたい",
+    "meaning": "原形、真面目、本來面目",
+    "partOfSpeech": "名詞",
+    "example": "犯人の正体がついに判明した。",
+    "isFavorite": false
+  },
+  {
+    "id": 74,
+    "word": "精神",
+    "reading": "せいしん",
+    "meaning": "精神、心靈、精力",
+    "partOfSpeech": "名詞",
+    "example": "健全な精神は健全な肉体に宿る。",
+    "isFavorite": false
+  },
+  {
+    "id": 75,
+    "word": "責任",
+    "reading": "せきにん",
+    "meaning": "責任、職責",
+    "partOfSpeech": "名詞",
+    "example": "リーダーとして責任を果たす。",
+    "isFavorite": false
+  },
+  {
+    "id": 76,
+    "word": "清掃",
+    "reading": "せいそう",
+    "meaning": "清掃、打掃",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "駅の構内を清掃する。",
+    "isFavorite": false
+  },
+  {
+    "id": 77,
+    "word": "接近",
+    "reading": "せっきん",
+    "meaning": "接近、靠近、關係密切",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "台風が九州地方に接近している。",
+    "isFavorite": false
+  },
+  {
+    "id": 78,
+    "word": "設置",
+    "reading": "せっち",
+    "meaning": "設置、安裝、設立",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "防犯カメラを各所に設置する。",
+    "isFavorite": false
+  },
+  {
+    "id": 79,
+    "word": "設立",
+    "reading": "せつりつ",
+    "meaning": "設立、成立",
+    "partOfSpeech": "名詞、他動詞",
+    "example": "彼は三十歳で自分の会社を設立した。",
+    "isFavorite": false
+  },
+  {
+    "id": 80,
+    "word": "先日",
+    "reading": "せんじつ",
+    "meaning": "前幾天、日前、上次",
+    "partOfSpeech": "名詞、副詞",
+    "example": "先日はごちそうさまでした。",
+    "isFavorite": false
+  },
+  {
+    "id": 81,
+    "word": "人材",
+    "reading": "じんざい",
+    "meaning": "人才",
+    "partOfSpeech": "名詞",
+    "example": "有能な人材を確保するのが難しい。",
+    "isFavorite": false
+  },
+  {
+    "id": 82,
+    "word": "性質",
+    "reading": "せいしつ",
+    "meaning": "性格、脾氣、性質、特性",
+    "partOfSpeech": "名詞",
+    "example": "燃えやすい性質の物質は慎重に扱う。",
+    "isFavorite": false
+  },
+  {
+    "id": 83,
+    "word": "世帯",
+    "reading": "せたい",
+    "meaning": "家庭、戶",
+    "partOfSpeech": "名詞",
+    "example": "このマンションには百世帯が住んでいる。",
+    "isFavorite": false
+  },
+  {
+    "id": 84,
+    "word": "政権",
+    "reading": "せいけん",
+    "meaning": "政權",
+    "partOfSpeech": "名詞",
+    "example": "選挙の結果、政権が交代した。",
+    "isFavorite": false
+  },
+  {
+    "id": 85,
+    "word": "人情",
+    "reading": "にんじょう",
+    "meaning": "人情",
+    "partOfSpeech": "名詞",
+    "example": "下町にはまだ人情が残っている。",
+    "isFavorite": false
+  },
+  {
+    "id": 86,
+    "word": "人目",
+    "reading": "ひとめ",
+    "meaning": "世人的眼光、眾目、旁人看見",
+    "partOfSpeech": "名詞",
+    "example": "人目を避けて秘密で会う。",
+    "isFavorite": false
+  },
+  {
+    "id": 87,
+    "word": "進路",
+    "reading": "しんろ",
+    "meaning": "前進的道路、升學就業的指導",
+    "partOfSpeech": "名詞",
+    "example": "卒業後の進路について先生に相談する。",
+    "isFavorite": false
+  },
+  {
+    "id": 88,
+    "word": "人手",
+    "reading": "ひとで",
+    "meaning": "人手、勞力、幫手、他人之手",
+    "partOfSpeech": "名詞",
+    "example": "忙しくて人手が足りない。",
+    "isFavorite": false
+  },
+  {
+    "id": 89,
+    "word": "性別",
+    "reading": "せいべつ",
+    "meaning": "性別",
+    "partOfSpeech": "名詞",
+    "example": "性別を問わず募集しています。",
+    "isFavorite": false
+  },
+  {
+    "id": 90,
+    "word": "制服",
+    "reading": "せいふく",
+    "meaning": "制服",
+    "partOfSpeech": "名詞",
+    "example": "四月から新しい制服を着て登校する。",
+    "isFavorite": false
+  },
+  {
+    "id": 91,
+    "word": "進展",
+    "reading": "しんてん",
+    "meaning": "進展、發展",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "捜査に大きな進展があった。",
+    "isFavorite": false
+  },
+  {
+    "id": 92,
+    "word": "神経",
+    "reading": "しんけい",
+    "meaning": "神經、感覺",
+    "partOfSpeech": "名詞",
+    "example": "彼は神経が細かくて、よく気がつく。",
+    "isFavorite": false
+  },
+  {
+    "id": 93,
+    "word": "新規",
+    "reading": "しんき",
+    "meaning": "新、重新、新規章",
+    "partOfSpeech": "名詞、形容動詞",
+    "example": "新規プロジェクトを立ち上げる。",
+    "isFavorite": false
+  },
+  {
+    "id": 94,
+    "word": "振込",
+    "reading": "ふりこみ",
+    "meaning": "轉帳、存入戶頭",
+    "partOfSpeech": "名詞",
+    "example": "給料は銀行振込で支払われる。",
+    "isFavorite": false
+  },
+  {
+    "id": 95,
+    "word": "身内",
+    "reading": "みうち",
+    "meaning": "親屬、自家人、自己人",
+    "partOfSpeech": "名詞",
+    "example": "身内だけで静かに葬儀を行った。",
+    "isFavorite": false
+  },
+  {
+    "id": 96,
+    "word": "真心",
+    "reading": "まごころ",
+    "meaning": "真心、誠意",
+    "partOfSpeech": "名詞",
+    "example": "真心を込めて手紙を書く。",
+    "isFavorite": false
+  },
+  {
+    "id": 97,
+    "word": "進歩",
+    "reading": "しんぽ",
+    "meaning": "進步",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "科学技術は日々進歩している。",
+    "isFavorite": false
+  },
+  {
+    "id": 98,
+    "word": "進化",
+    "reading": "しんか",
+    "meaning": "進化",
+    "partOfSpeech": "名詞、自動詞",
+    "example": "人間は猿から進化したと言われている。",
+    "isFavorite": false
+  },
+  {
+    "id": 99,
+    "word": "職務",
+    "reading": "しょくむ",
+    "meaning": "職務、任務",
+    "partOfSpeech": "名詞",
+    "example": "警察官がその職務を全うする。",
+    "isFavorite": false
+  },
+  {
+    "id": 100,
+    "word": "職種",
+    "reading": "しょくしゅ",
+    "meaning": "職業的種類、工作種類",
+    "partOfSpeech": "名詞",
+    "example": "自分に合った職種を見つける。",
+    "isFavorite": false
+  }
+]
