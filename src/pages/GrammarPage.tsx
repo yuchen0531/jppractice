@@ -24,46 +24,69 @@ const categories = ["全部", "必然", "原因", "逆接", "強調", "時間/�
 
 export function GrammarPage() {
   const [activeCategory, setActiveCategory] = useState("全部");
+  const [searchText, setSearchText] = useState("");
   const [grammarList, setGrammarList] = useState<Grammar[]>([]);
 
-   useEffect(() => {
-     fetch("/data/grammar.json")
-       .then((res) => res.json())
-       .then((data) => setGrammarList(data));
-   }, []);
+  useEffect(() => {
+    fetch("/data/grammar.json")
+      .then((res) => res.json())
+      .then((data) => setGrammarList(data));
+  }, []);
 
-  const filteredList =
-    activeCategory === "全部"
-      ? grammarList
-      : grammarList.filter((item) => item.category === activeCategory);
+  const filteredList = grammarList.filter((item) => {
+    const matchCategory =
+      activeCategory === "全部" || item.category === activeCategory;
+
+    const keyword = searchText.trim().toLowerCase();
+
+    const matchSearch =
+      keyword === "" ||
+      item.pattern.toLowerCase().includes(keyword) ||
+      item.meaning.toLowerCase().includes(keyword) ||
+      item.usage.toLowerCase().includes(keyword) ||
+      item.structure.toLowerCase().includes(keyword);
+
+    return matchCategory && matchSearch;
+  });
 
   return (
     <>
-    <div className="bg-[#b9433f] text-white px-5 pt-5 pb-8 rounded-b-3xl shadow-sm absolute top-0 left-0 right-0">
+      <div className="bg-[#b9433f] text-white px-5 pt-5 pb-8 rounded-b-3xl shadow-sm absolute top-0 left-0 right-0">
         <Link to="/" className="text-sm text-white bg-white/20 px-3 py-1 rounded-xl">
-           ← 首頁
+          ← 首頁
         </Link>
+
         <div className="flex items-center justify-start mt-5 mb-3">
-            <p className="text-2xl font-bold mr-3">文法庫</p>
-            <p className="text-sm text-[#ffb710]">Grammar Library</p> 
+          <p className="text-2xl font-bold mr-3">文法庫</p>
+          <p className="text-sm text-[#ffb710]">Grammar Library</p>
         </div>
-      <div className="flex gap-2 overflow-x-auto pb-2">
-        {categories.map((category) => (
-          <button
-            key={category}
-            onClick={() => setActiveCategory(category)}
-            className={`shrink-0 rounded-full px-4 py-2 text-sm font-bold ${
-              activeCategory === category
-                ? "bg-white text-[#7a5a50] border border-[#ead8cf]"
-                : "text-white border border-white"
-            }`}
-          >
-            {category}
-          </button>
-        ))}
+
+        {/* 搜尋框 */}
+        <input
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+          placeholder="搜尋文法、意思、用法..."
+          className="mb-4 w-full rounded-2xl bg-white px-4 py-3 text-sm text-[#6b4f4f] placeholder:text-[#c9aaa0] outline-none"
+        />
+
+        <div className="flex gap-2 overflow-x-auto pb-2">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`shrink-0 rounded-full px-4 py-2 text-sm font-bold ${
+                activeCategory === category
+                  ? "bg-white text-[#7a5a50] border border-[#ead8cf]"
+                  : "text-white border border-white"
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
       </div>
-    </div>
-      <section className="space-y-4 p-6 mt-[186px]">
+
+      <section className="space-y-4 p-6 mt-[240px]">
         {filteredList.map((item) => (
           <Link
             key={item.id}

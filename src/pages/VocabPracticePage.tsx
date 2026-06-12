@@ -92,8 +92,10 @@ export function VocabPracticePage() {
     return (
       <>
         <div className="bg-[#b9433f] text-white px-6 pt-8 pb-10 rounded-b-3xl shadow-sm">
-          <p className="text-sm text-[#ffb710]">Daily Practice</p>
-          <h1 className="mt-1 text-2xl font-bold">今日練習完成</h1>
+          <Link to="/" className="text-sm text-white bg-white/20 px-3 py-1 rounded-xl">
+            ← 首頁
+          </Link>
+          <h1 className="mt-5 text-2xl font-bold">今日練習完成</h1>
           <p className="mt-3 text-sm">今天也有好好練習，很棒 ✨</p>
         </div>
         <section className="p-6">

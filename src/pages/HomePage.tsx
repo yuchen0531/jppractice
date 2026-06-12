@@ -1,6 +1,27 @@
 
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 export function HomePage() {
+    const  [dailyList, setDailyList] =  useState<any[]>([]);
+    const  [dailyGrammarList, setDailyGrammarList] =  useState<any[]>([]);
+    useEffect(() => {
+        const randomVocab = Math.floor(Math.random() * 35) + 1; // 生成 1-35 的隨機數字
+        console.log('randomVocab', randomVocab);
+          fetch(`/data/vocab-${randomVocab}.json`)
+            .then((res) => res.json())
+            .then((data) => {
+                console.log('data', data.length);
+                const randomNum = Math.floor(Math.random() * (data.length - 5)) + 1;
+                setDailyList(data.slice(randomNum - 5, randomNum));
+            });
+          fetch(`/data/grammar.json`)
+            .then((res) => res.json())
+            .then((data) => {
+                console.log('data', data.length);
+                const randomNum = Math.floor(Math.random() * (data.length - 5)) + 1;
+                setDailyGrammarList(data.slice(randomNum - 5, randomNum));
+            });
+    }, []);
 
   return (
     <div>
@@ -8,39 +29,10 @@ export function HomePage() {
             <p className="text-sm tracking-widest">日本語を勉強しましょう</p>
 
             <h1 className="mt-2 text-xl font-semibold">
-                綸綸，今天也一起加油吧！
+                今天也一起加油吧！
             </h1>
-
-            <p className="mt-2 text-sm opacity-90">
-                🔥 已連續學習 3 天
-            </p>
         </div>
-        <div className="p-6 mt-[156px]">
-            <h2 className="text-xl font-bold mb-4">今日任務</h2>
-            <ul>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <div className="flex justify-between items-end">
-                        <p>N1 文法</p>
-                        <p className="ml-auto text-xs text-gray-500">2/4 題</p>
-                    </div>
-                    <div className="h-2 w-full bg-[#f1ddd3] rounded-full my-2">
-                        <div className="h-2 bg-[#a9433e] rounded-full" style={{ width: '50%' }}></div>
-                    </div>
-                </li>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <div className="flex justify-between items-end">
-                        <p>N1 單字</p>
-                        <p className="ml-auto text-xs text-gray-500">1/4 題</p>
-                    </div>
-                    <div className="h-2 w-full bg-[#f1ddd3] rounded-full my-2">
-                        <div className="h-2 bg-[#a9433e] rounded-full" style={{ width: '25%' }}></div>
-                    </div>
-                </li>
-            </ul>
-            <button className="mt-4 w-full rounded-lg bg-[#b9433f] text-white py-2">
-                開始練習
-            </button>
-            <div className="h-[1px] bg-[#f1ddd3] w-full my-6"></div>
+        <div className="p-6 mt-[128px]">
             <h2 className="text-xl font-bold mb-4">功能導覽</h2>
             <div className="grid grid-cols-2 gap-4">
                 <Link to="/daily" className={`flex flex-col items-center bg-white border border-[#ead8cf] text-[#b9433f] rounded-2xl p-4`}>
@@ -76,32 +68,31 @@ export function HomePage() {
                 </Link>
             </div>
             <div className="h-[1px] bg-[#f1ddd3] w-full my-6"></div>
-            <h2 className="text-xl font-bold mb-4">每日推薦</h2>
+            <h2 className="text-xl font-bold mb-4">每日推薦單字</h2>
             <ul>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <p className="font-bold text-lg">食べる</p>
-                    <p className="text-gray-600 ">吃</p>
-                </li>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <p className="font-bold text-lg">食べる</p>
-                    <p className="text-gray-600 ">吃</p>
-                </li>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <p className="font-bold text-lg">食べる</p>
-                    <p className="text-gray-600 ">吃</p>
-                </li>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <p className="font-bold text-lg">食べる</p>
-                    <p className="text-gray-600 ">吃</p>
-                </li>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <p className="font-bold text-lg">食べる</p>
-                    <p className="text-gray-600 ">吃</p>
-                </li>
-                <li className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
-                    <p className="font-bold text-lg">食べる</p>
-                    <p className="text-gray-600 ">吃</p>
-                </li>
+                {dailyList.map((item, index) => (
+                    <li key={index} className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
+                        <p className="text-xs leading-6 text-[#6b4f4f]">{item.reading}</p>
+                        <p className="-mt-2 leading-6 tracking-[4px] font-bold text-[#6b4f4f] mb-2">
+                            {item.word}
+                        </p>
+                        <p className="text-sm text-gray-600  mb-2">{item.meaning}</p>
+                        <p className="text-sm text-gray-400 text-sm">{item.example}</p>
+                    </li>
+                ))}
+            </ul>
+            <div className="h-[1px] bg-[#f1ddd3] w-full my-6"></div>
+            <h2 className="text-xl font-bold mb-4">每日推薦文法</h2>
+            <ul>
+                {dailyGrammarList.map((item, index) => (
+                    <li key={index} className="mb-2 border border-[#f1ddd3] bg-white rounded-2xl p-3">
+                        <p className="font-bold text-[#6b4f4f] mb-2">
+                            {item.pattern}
+                        </p>
+                        <p className="text-sm text-gray-600  mb-2">{item.meaning}</p>
+                        <p className="text-sm text-gray-400 text-sm">{item.examples[0].jp}</p>
+                    </li>
+                ))}
             </ul>
         </div>
         
