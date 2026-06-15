@@ -5,23 +5,28 @@ export function HomePage() {
     const  [dailyList, setDailyList] =  useState<any[]>([]);
     const  [dailyGrammarList, setDailyGrammarList] =  useState<any[]>([]);
     useEffect(() => {
-        const randomVocab = Math.floor(Math.random() * 35) + 1; // 生成 1-35 的隨機數字
-        console.log('randomVocab', randomVocab);
-          fetch(`/data/vocab-${randomVocab}.json`)
+        const randomVocab = Math.floor(Math.random() * 35) + 1;
+
+        fetch(`/data/vocab-${randomVocab}.json`)
             .then((res) => res.json())
             .then((data) => {
-                console.log('data', data.length);
-                const randomNum = Math.floor(Math.random() * (data.length - 5)) + 1;
-                setDailyList(data.slice(randomNum - 5, randomNum));
+            const randomStart = Math.floor(
+                Math.random() * Math.max(data.length - 5 + 1, 1)
+            );
+
+            setDailyList(data.slice(randomStart, randomStart + 5));
             });
-          fetch(`/data/grammar.json`)
+
+        fetch(`/data/grammar.json`)
             .then((res) => res.json())
             .then((data) => {
-                console.log('data', data.length);
-                const randomNum = Math.floor(Math.random() * (data.length - 5)) + 1;
-                setDailyGrammarList(data.slice(randomNum - 5, randomNum));
+            const randomStart = Math.floor(
+                Math.random() * Math.max(data.length - 5 + 1, 1)
+            );
+
+            setDailyGrammarList(data.slice(randomStart, randomStart + 5));
             });
-    }, []);
+        }, []);
 
   return (
     <div>
