@@ -20,39 +20,118 @@ export function VocabPracticePage() {
     if (practiceList.length === 0) return;
     practiceProduce();
   }, [practiceList]);
+  const kanaConfuseMap: Record<string, string[]> = {
+  か: ["が"], き: ["ぎ"], く: ["ぐ"], け: ["げ"], こ: ["ご"],
+  さ: ["ざ"], し: ["じ"], す: ["ず"], せ: ["ぜ"], そ: ["ぞ"],
+  た: ["だ"], ち: ["ぢ"], つ: ["づ"], て: ["で"], と: ["ど"],
+  は: ["ば", "ぱ"], ひ: ["び", "ぴ"], ふ: ["ぶ", "ぷ"], へ: ["べ", "ぺ"], ほ: ["ぼ", "ぽ"],
 
+  が: ["か"], ぎ: ["き"], ぐ: ["く"], げ: ["け"], ご: ["こ"],
+  ざ: ["さ"], じ: ["し"], ず: ["す"], ぜ: ["せ"], ぞ: ["そ"],
+  だ: ["た"], ぢ: ["ち"], づ: ["つ"], で: ["て"], ど: ["と"],
+  ば: ["は", "ぱ"], び: ["ひ", "ぴ"], ぶ: ["ふ", "ぷ"], べ: ["へ", "ぺ"], ぼ: ["ほ", "ぽ"],
+  ぱ: ["は", "ば"], ぴ: ["ひ", "び"], ぷ: ["ふ", "ぶ"], ぺ: ["へ", "べ"], ぽ: ["ほ", "ぼ"],
+};
+
+const shuffle = <T,>(array: T[]) => {
+  return [...array].sort(() => Math.random() - 0.5);
+};
+
+const generateSimilarReadings = (reading: string) => {
+  const results = new Set<string>();
+
+  for (let i = 0; i < reading.length; i++) {
+    const char = reading[i];
+    const candidates = kanaConfuseMap[char];
+
+    if (!candidates) continue;
+
+    candidates.forEach((newChar) => {
+      const newReading =
+        reading.slice(0, i) + newChar + reading.slice(i + 1);
+
+      if (newReading !== reading) {
+        results.add(newReading);
+      }
+    });
+  }
+
+  // 再增加刪掉一個音的干擾選項，例如 どくりつ → どりつ
+  if (reading.length >= 3) {
+    for (let i = 1; i < reading.length - 1; i++) {
+      const removed = reading.slice(0, i) + reading.slice(i + 1);
+      if (removed !== reading) {
+        results.add(removed);
+      }
+    }
+  }
+
+  return Array.from(results);
+};
   const practiceProduce = () => {
-    if (practiceList.length < 4) return;
+  if (practiceList.length < 4) return;
 
-    const shuffled = [...practiceList]
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 10);
+  const shuffled = shuffle(practiceList).slice(0, 10);
 
-    const questions = shuffled.map((question) => {
-      const distractors = practiceList
+  const questions = shuffled.map((question) => {
+    const canAskReading = question.word !== question.reading;
+    const questionType = canAskReading && Math.random() > 0.5 ? "reading" : "meaning";
+
+    if (questionType === "reading") {
+      const similarReadings = generateSimilarReadings(question.reading);
+
+      const otherReadings = practiceList
         .filter((item) => item.id !== question.id)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 3)
-        .map((item) => item.meaning);
+        .map((item) => item.reading);
 
-      const options = [...distractors, question.meaning]
-        .sort(() => Math.random() - 0.5);
-      console.log('83', question)
+      const distractors = shuffle([
+        ...similarReadings,
+        ...otherReadings,
+      ])
+        .filter((reading, index, array) => {
+          return reading !== question.reading && array.indexOf(reading) === index;
+        })
+        .slice(0, 3);
+
+      const options = shuffle([...distractors, question.reading]);
+
       return {
         id: question.id,
-        type: "單字",
+        type: "讀音",
         title: question.word,
         reading: question.reading,
-        question: `「${question.reading}」常用來表示？`,
+        question: `「${question.word}」的讀音是？`,
         options,
-        answerIndex: options.indexOf(question.meaning),
+        answerIndex: options.indexOf(question.reading),
         example: question.example,
-        meaning: question.meaning
+        meaning: question.meaning,
       };
-    });
+    }
 
-    setPracticeQuestions(questions);
-  };
+    const distractors = practiceList
+      .filter((item) => item.id !== question.id)
+      .map((item) => item.meaning);
+
+    const options = shuffle([
+      ...shuffle(distractors).slice(0, 3),
+      question.meaning,
+    ]);
+
+    return {
+      id: question.id,
+      type: "單字",
+      title: question.word,
+      reading: question.reading,
+      question: `「${question.reading}」常用來表示？`,
+      options,
+      answerIndex: options.indexOf(question.meaning),
+      example: question.example,
+      meaning: question.meaning,
+    };
+  });
+
+  setPracticeQuestions(questions);
+};
 
   // 還沒載入完，顯示 loading
   if (practiceQuestions.length === 0) {

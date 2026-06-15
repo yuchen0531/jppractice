@@ -26,13 +26,33 @@ export function GrammarPage() {
   const [activeCategory, setActiveCategory] = useState("全部");
   const [searchText, setSearchText] = useState("");
   const [grammarList, setGrammarList] = useState<Grammar[]>([]);
+  const [readIds, setReadIds] = useState<number[]>([]);
+  const [isReadLoaded, setIsReadLoaded] = useState(false);
 
+  const readKey = "grammarReadIds";
   useEffect(() => {
     fetch("/data/grammar.json")
       .then((res) => res.json())
       .then((data) => setGrammarList(data));
   }, []);
+  useEffect(() => {
+    const saved = localStorage.getItem(readKey);
+    setReadIds(saved ? JSON.parse(saved) : []);
+    setIsReadLoaded(true);
+  }, []);
 
+  useEffect(() => {
+    if (!isReadLoaded) return;
+
+    localStorage.setItem(readKey, JSON.stringify(readIds));
+  }, [readIds, isReadLoaded]);
+  const toggleRead = (id: number) => {
+    setReadIds((prev) =>
+      prev.includes(id)
+        ? prev.filter((item) => item !== id)
+        : [...prev, id]
+    );
+  };
   const filteredList = grammarList.filter((item) => {
     const matchCategory =
       activeCategory === "全部" || item.category === activeCategory;
@@ -97,7 +117,26 @@ export function GrammarPage() {
               <span className="rounded-full bg-[#fff0ea] px-3 py-1 text-xs text-[#b9433f]">
                 {item.level}
               </span>
-              <span className="text-xs text-[#a56b5f]">{item.category}</span>
+
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-[#a56b5f]">
+                  {item.category}
+                </span>
+
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    toggleRead(item.id);
+                  }}
+                  className={`rounded-full px-3 py-1 text-xs font-bold transition ${
+                    readIds.includes(item.id)
+                      ? "bg-[#dff4de] text-[#2f7d32]"
+                      : "bg-[#f6f1ee] text-[#a56b5f]"
+                  }`}
+                >
+                  {readIds.includes(item.id) ? "✓ 已讀" : "未讀"}
+                </button>
+              </div>
             </div>
 
             <h2 className="mt-3 text-xl font-bold">{item.pattern}</h2>

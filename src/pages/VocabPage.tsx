@@ -2,7 +2,17 @@
 import { useState,  useEffect} from "react";
 import { Link, useParams } from "react-router-dom";
 
-const parts = ["全部", "動詞", "名詞", "形容詞", "副詞","他動詞","自動詞","形容動詞"];
+const parts = [
+  "全部",
+  "名詞",
+  "動詞",
+  "サ変動詞",
+  "い形容詞",
+  "ナ形容詞",
+  "副詞",
+  "自動詞",
+  "他動詞",
+];
 type Vocab = {
   id: number;
   word: string;
@@ -13,21 +23,42 @@ type Vocab = {
   isFavorite: boolean;
 };
 export function VocabPage() {
+  const { lesson } = useParams();
+
+  const favoriteKey = `vocabFavoriteIds-${lesson}`;
+
   const [vocabList, setVocabList] = useState<Vocab[]>([]);
   const [activePart, setActivePart] = useState("全部");
   const [flippedIds, setFlippedIds] = useState<number[]>([]);
   const [favoriteIds, setFavoriteIds] = useState<number[]>([]);
-  const { lesson } = useParams();
+  const [isFavoriteLoaded, setIsFavoriteLoaded] = useState(false);
   useEffect(() => {
     fetch(`/data/vocab-${lesson}.json`)
       .then((res) => res.json())
       .then((data) => setVocabList(data));
   }, [lesson]);
 
+  useEffect(() => {
+    const saved = localStorage.getItem(favoriteKey);
+    setFavoriteIds(saved ? JSON.parse(saved) : []);
+    setIsFavoriteLoaded(true);
+  }, [favoriteKey]);
+
+  useEffect(() => {
+    if (!isFavoriteLoaded) return;
+
+    localStorage.setItem(
+      favoriteKey,
+      JSON.stringify(favoriteIds)
+    );
+  }, [favoriteIds, favoriteKey, isFavoriteLoaded]);
+
   const filteredList =
-    activePart === "全部"
-      ? vocabList
-      : vocabList.filter((item) => item.partOfSpeech === activePart);
+  activePart === "全部"
+    ? vocabList
+    : vocabList.filter((item) =>
+        item.partOfSpeech.includes(activePart)
+      );
 
   const toggleFlip = (id: number) => {
     setFlippedIds((prev) =>
