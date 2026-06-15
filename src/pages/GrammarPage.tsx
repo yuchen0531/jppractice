@@ -110,7 +110,7 @@ export function GrammarPage() {
         {filteredList.map((item) => (
           <Link
             key={item.id}
-            to={`/grammar/${item.id}`}
+             to={`/grammar/${item.id}?category=${activeCategory}&search=${searchText}`}
             className="block rounded-3xl border border-[#ead8cf] bg-white p-5 shadow-sm"
           >
             <div className="flex items-center justify-between">
